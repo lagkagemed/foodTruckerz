@@ -1,0 +1,24 @@
+{
+  "name": "foodtruckerz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagkagemed/foodTruckerz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagkagemed/foodTruckerz/issues"
+  },
+  "homepage": "https://github.com/lagkagemed/foodTruckerz#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
