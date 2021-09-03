@@ -18,8 +18,17 @@
 
     <div id="gamePage" class="float-container">
         <div id="leftGameMenu" class="float-child">
-            <h2>Suppliers</h2>
-            <h2>Food Trucks</h2>
+            <div id="firstLeftMenu">
+                <h2>Suppliers</h2>
+                    <div id="farmersSelectDiv"></div>
+                <h2>Food Trucks</h2>
+            </div>
+            <div id="farmerDetailDiv">
+                <button id="backToFirstLeftMenuBtn">Back</button>
+                <h2 id="farmerTitle"></h2>
+                <div id="farmerInventory"></div>
+                <div id="foodDetailDiv"></div>
+            </div>
         </div>
         <div class="float-middle"></div>
         <div id="rightGameMenu" class="float-child">
@@ -46,6 +55,7 @@
 
     <script>
         document.getElementById("gamePage").style.display = "none";
+        document.getElementById("farmerDetailDiv").style.display = "none";
     </script>
 </body>
 </html>

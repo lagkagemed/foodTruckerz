@@ -5,6 +5,12 @@ import { dirname } from 'path';
 import { Server } from 'socket.io';
 import { fileURLToPath } from 'url';
 
+import { NAMES_ARRAY } from './server/names.js'
+import { FOOD_ARRAY } from './server/foods.js'
+import { Farmer } from './server/farmer.js'
+import { Food } from './server/farmer.js'
+
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -21,19 +27,53 @@ console.log('Server started.');
 
 let SOCKET_LIST = {}
 let PLAYER_LIST = {}
+let FARMER_ARRAY = []
+
+let numFarmers = 4 + (Math.random() * 6);
+
+for (let i = 0; i < numFarmers; i++) {
+    let pickRand = Math.random() * NAMES_ARRAY.length;
+    let fName = NAMES_ARRAY.splice(pickRand, 1);
+    let foodArray = [];
+    let difFoods = 5 + (Math.random() * 5)
+
+    for (let i = 0; i < difFoods; i++) {
+        pickRand = Math.random() * FOOD_ARRAY.length;
+        let newFoodArr = FOOD_ARRAY.splice(pickRand, 1);
+        let quantity = 10 + (Math.random() * 20);
+        quantity = quantity.toFixed(0);
+        let price = 2 + (Math.random() * 6);
+        price = price.toFixed(2);
+        let taste = 0.5 + Math.random();
+        taste = taste.toFixed(2);
+        let nutrition = 0.5 + Math.random();
+        nutrition = nutrition.toFixed(2);
+        let newFood = Food(newFoodArr[0].name, newFoodArr[0].group, newFoodArr[0].description, quantity, price, taste, nutrition);
+        foodArray.push(newFood);
+    }
+
+    FARMER_ARRAY.push(Farmer(fName, foodArray));
+}
+
+
 
 let io = new Server(serv);
 
-function sendConnectedPlayers() {
-    let string = "Connected players are: ";
+function sendGameStatus() {
+    let pack = {};
 
+    let string = "Connected players are: ";
     for (let i in PLAYER_LIST) {
         let player = PLAYER_LIST[i];
         string += player.name + " | ";
     }
+    pack.connected = string;
+    pack.farmers = FARMER_ARRAY;
+
+
     for (let i in SOCKET_LIST) {
         let socket = SOCKET_LIST[i];
-        socket.emit('connectedUpdate', string);
+        socket.emit('gameStatus', pack);
     }
 }
 
@@ -49,22 +89,38 @@ io.sockets.on('connection', function(socket){
     player.name = "Unnamed";
     player.cash = 1000;
 
-    sendConnectedPlayers();
+    sendGameStatus();
 
     console.log('Socket with id: ' + socket.id + ' connected!');
 
     socket.on('playerLoggedIn',function(name){
         player.name = name;
         console.log('Socket with id: ' + player.id + ' changed name to: ' + player.name);
-        sendConnectedPlayers();
+        sendGameStatus();
         socket.emit('playerStatus', player);
+    });
+
+    socket.on('buyRequest',function(data){
+        if (isNaN(data.buyQuant)) {
+            console.log(data.buyQuant);
+        } else if (data.buyQuant > 0) {
+            let buyItem = FARMER_ARRAY[data.farmer].items[data.item];
+            let buyPrice = data.buyQuant * buyItem.price;
+            if (player.cash >= buyPrice && buyItem.quantity >= data.buyQuant) {
+                player.cash -= buyPrice;
+                player.cash = player.cash.toFixed(2);
+                socket.emit('playerStatus', player);
+                buyItem.quantity -= data.buyQuant;
+                sendGameStatus();
+            }
+        }
     });
 
     socket.on('disconnect',function(){
         delete SOCKET_LIST[socket.id];
         delete PLAYER_LIST[player.id];
         console.log('socket disconnected');
-        sendConnectedPlayers();
+        sendGameStatus();
     });
 });
 
