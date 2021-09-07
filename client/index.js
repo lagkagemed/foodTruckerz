@@ -2,6 +2,7 @@ let socket = io();
 
 let playerName = '';
 let playerCash = 0;
+let playerInventory = [];
 
 let selectedFarmer = -1;
 let selectedFood = -1;
@@ -57,13 +58,15 @@ function updateFarmer(farmer) {
 
         for (let i = 0; i < farmer.items.length; i++) {
             let curItem = farmer.items[i];
-            let btn2 = document.createElement("button");
-            btn2.innerHTML = curItem.name + ": " + curItem.quantity;
-            btn2.addEventListener('click', function () {
-                selectedFood = i;
-                updateItem(curItem);
-            })
-            farmerInv.appendChild(btn2);
+            if (curItem.quantity > 0) {
+                let btn2 = document.createElement("button");
+                btn2.innerHTML = curItem.name + ": " + curItem.quantity;
+                btn2.addEventListener('click', function () {
+                    selectedFood = i;
+                    updateItem(curItem);
+                })
+                farmerInv.appendChild(btn2);
+            }
         }
     }
 }
@@ -95,6 +98,7 @@ document.getElementById('backToFirstLeftMenuBtn').addEventListener('click', func
     document.getElementById("farmerDetailDiv").style.display = "none";
     selectedFarmer = -1;
     selectedFood = -1;
+    updateFarmers();
 })
 
 document.getElementById('loginButton').addEventListener('click', function () {
@@ -113,4 +117,16 @@ socket.on('gameStatus',function(data){
 socket.on('playerStatus',function(player){
     playerCash = player.cash;
     document.getElementById('moneyInfo').innerHTML = "You currently have " + playerCash + "$";
+
+    playerInventory = player.inventory;
+    if (playerInventory.length == 0) {
+        document.getElementById('inventoryInfo').innerHTML = "Your Inventory is empty!";
+    } else {
+        let string = "In your inventory you have: ";
+        for (let i = 0; i < playerInventory.length; i++) {
+            string += playerInventory[i].name + ": " + playerInventory[i].quantity + " | ";
+        }
+        document.getElementById('inventoryInfo').innerHTML = string;
+    }
+
 });

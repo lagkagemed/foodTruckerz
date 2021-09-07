@@ -41,13 +41,13 @@ for (let i = 0; i < numFarmers; i++) {
         pickRand = Math.random() * FOOD_ARRAY.length;
         let newFoodArr = FOOD_ARRAY.splice(pickRand, 1);
         let quantity = 10 + (Math.random() * 20);
-        quantity = quantity.toFixed(0);
+        quantity = parseFloat(quantity.toFixed(0));
         let price = 2 + (Math.random() * 6);
-        price = price.toFixed(2);
+        price = parseFloat(price.toFixed(2));
         let taste = 0.5 + Math.random();
-        taste = taste.toFixed(2);
+        taste = parseFloat(taste.toFixed(2));
         let nutrition = 0.5 + Math.random();
-        nutrition = nutrition.toFixed(2);
+        nutrition = parseFloat(nutrition.toFixed(2));
         let newFood = Food(newFoodArr[0].name, newFoodArr[0].group, newFoodArr[0].description, quantity, price, taste, nutrition);
         foodArray.push(newFood);
     }
@@ -88,6 +88,7 @@ io.sockets.on('connection', function(socket){
 
     player.name = "Unnamed";
     player.cash = 1000;
+    player.inventory = [];
 
     sendGameStatus();
 
@@ -101,16 +102,32 @@ io.sockets.on('connection', function(socket){
     });
 
     socket.on('buyRequest',function(data){
+        let buyQuant = Math.floor(data.buyQuant)
         if (isNaN(data.buyQuant)) {
             console.log(data.buyQuant);
-        } else if (data.buyQuant > 0) {
+        } else if (buyQuant > 0) {
             let buyItem = FARMER_ARRAY[data.farmer].items[data.item];
-            let buyPrice = data.buyQuant * buyItem.price;
-            if (player.cash >= buyPrice && buyItem.quantity >= data.buyQuant) {
+            let buyPrice = buyQuant * buyItem.price;
+            if (player.cash >= buyPrice && buyItem.quantity >= buyQuant) {
                 player.cash -= buyPrice;
                 player.cash = player.cash.toFixed(2);
+                let doesExist = false;
+                for (let i = 0; i < player.inventory.length; i++) {
+                    let curFood = player.inventory[i];
+                    if (curFood.name == buyItem.name) {
+                        doesExist = true;
+                        let foodA = parseFloat(curFood.quantity)
+                        let foodB = parseFloat(buyQuant);
+                        let foodC = foodA + foodB;
+                        curFood.quantity = foodC;
+                    }
+                }
+                if (!doesExist) {
+                    let newFood = Food(buyItem.name, buyItem.group, buyItem.description, buyQuant, buyItem.price, buyItem.taste, buyItem.nutrition);
+                    player.inventory.push(newFood);
+                }
                 socket.emit('playerStatus', player);
-                buyItem.quantity -= data.buyQuant;
+                buyItem.quantity -= buyQuant;
                 sendGameStatus();
             }
         }
