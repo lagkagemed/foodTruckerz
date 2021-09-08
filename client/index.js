@@ -3,6 +3,11 @@ let socket = io();
 let playerName = '';
 let playerCash = 0;
 let playerInventory = [];
+let playerKitchen = 0;
+
+let FOOD_ARRAY_GROUPS = [];
+let endDate = 0;
+let cookFact = 0;
 
 let selectedFarmer = -1;
 let selectedFood = -1;
@@ -93,6 +98,78 @@ function updateFarmers() {
     }
 }
 
+function refreshDishStats() {
+    let dishStatsDiv = document.getElementById('dishStatsDiv');
+    dishStatsDiv.innerHTML = '';
+    let avgCost = 0;
+    let dishTaste = 0;
+    let dishNutrition = 0;
+    let dishRecipe = [];
+
+    for (let i = 0; i < playerKitchen; i++) {
+        let select = document.getElementById('ingredientSelect' + i);
+        if (select.selectedIndex != 0) {
+            for (let a = 0; a < playerInventory.length; a++) {
+                let selFood = playerInventory[a];
+                if (select.value == selFood.name) {
+                    avgCost += selFood.price;
+                    dishTaste += selFood.taste;
+                    dishNutrition += selFood.nutrition;
+                    dishRecipe.push(selFood.group);
+                }
+            }
+        }
+    }
+
+    if (dishRecipe.length > 0) {
+        avgCost = avgCost / dishRecipe.length;
+        avgCost = parseFloat(avgCost.toFixed(2));
+        dishTaste = dishTaste / dishRecipe.length + ((dishRecipe.length - 1) * cookFact)
+        dishTaste = parseFloat(dishTaste.toFixed(2));
+        dishNutrition = dishNutrition / dishRecipe.length + ((dishRecipe.length - 1) * cookFact)
+        dishNutrition = parseFloat(dishNutrition.toFixed(2));
+    }
+
+    dishRecipe.sort();
+
+    let recipeString = '';
+
+    for (let i = 0; i < dishRecipe.length; i++) {
+        recipeString += dishRecipe[i] + " | ";
+    }
+    dishStatsDiv.innerHTML = 'Production cost: ' + avgCost + '<br>' + 'Dish taste: ' + dishTaste + '<br>' + 'Dish Nutrition: ' + dishNutrition + '<br>' + 'Recipe: ' + recipeString + '<br><br>';
+}
+
+function updateKitchen() {
+    let ingredientsDiv = document.getElementById('ingredientsDiv')
+    ingredientsDiv.innerHTML = '';
+
+    for (let i = 0; i < playerKitchen; i++) {
+        let select = document.createElement("select");
+        select.id = 'ingredientSelect' + i;
+        let optGroup = document.createElement("optgroup");
+        optGroup.label = 'None';
+        let option = document.createElement("option");
+        option.innerHTML =  '--- Choose ingredient ' + (i + 1) +' ---';
+        optGroup.appendChild(option);
+        select.appendChild(optGroup);
+        for (let a = 0; a < FOOD_ARRAY_GROUPS.length; a++) {
+            let optGroup0 = document.createElement("optgroup");
+            optGroup0.label = FOOD_ARRAY_GROUPS[a];
+            for (let b = 0; b < playerInventory.length; b++) {
+                if (playerInventory[b].group == FOOD_ARRAY_GROUPS[a]) {
+                    let option0 = document.createElement("option");
+                    option0.innerHTML = playerInventory[b].name;
+                    optGroup0.appendChild(option0);
+                }
+            }
+            select.appendChild(optGroup0);
+        }
+        select.addEventListener('change', refreshDishStats);
+        ingredientsDiv.appendChild(select);
+    }
+}
+
 document.getElementById('backToFirstLeftMenuBtn').addEventListener('click', function () {
     document.getElementById("firstLeftMenu").style.display = "block";
     document.getElementById("farmerDetailDiv").style.display = "none";
@@ -111,6 +188,7 @@ document.getElementById('loginButton').addEventListener('click', function () {
 socket.on('gameStatus',function(data){
     document.getElementById('connectedInfo').innerHTML = data.connected;
     FARMER_ARRAY = data.farmers;
+    endDate = data.endDate;
     updateFarmers();
 });
 
@@ -129,4 +207,20 @@ socket.on('playerStatus',function(player){
         document.getElementById('inventoryInfo').innerHTML = string;
     }
 
+    playerKitchen = player.kitchen;
+    updateKitchen();
+
 });
+
+socket.on('initial',function(data){
+    FOOD_ARRAY_GROUPS = data.groups;
+    cookFact = data.cookFact;
+});
+
+setInterval(function () {
+    let diffDate = endDate - Date.now();
+    let diffMin = Math.floor(diffDate / 60 / 1000);
+    let diffSec = Math.floor((diffDate / 1000) - (diffMin * 60));
+
+    document.getElementById('timeInfo').innerHTML = 'The market opens in: ' + diffMin + ' min and ' + diffSec + ' sec'
+}, 1000);

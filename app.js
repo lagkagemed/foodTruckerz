@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 
 import { NAMES_ARRAY } from './server/names.js'
 import { FOOD_ARRAY } from './server/foods.js'
+import { FOOD_ARRAY_GROUPS } from './server/foods.js'
 import { Farmer } from './server/farmer.js'
 import { Food } from './server/farmer.js'
 
@@ -28,6 +29,10 @@ console.log('Server started.');
 let SOCKET_LIST = {}
 let PLAYER_LIST = {}
 let FARMER_ARRAY = []
+
+let totalTime = 10;
+let startDate = Date.now();
+let endDate = startDate + (totalTime * 60 * 1000)
 
 let numFarmers = 4 + (Math.random() * 6);
 
@@ -69,6 +74,7 @@ function sendGameStatus() {
     }
     pack.connected = string;
     pack.farmers = FARMER_ARRAY;
+    pack.endDate = endDate;
 
 
     for (let i in SOCKET_LIST) {
@@ -89,8 +95,20 @@ io.sockets.on('connection', function(socket){
     player.name = "Unnamed";
     player.cash = 1000;
     player.inventory = [];
+    player.kitchen = 2;
 
     sendGameStatus();
+
+    function sendInitial() {
+        let pack = {};
+    
+        pack.groups = FOOD_ARRAY_GROUPS;
+        pack.cookFact = 0.5;
+    
+        socket.emit('initial', pack);
+    }
+
+    sendInitial();
 
     console.log('Socket with id: ' + socket.id + ' connected!');
 

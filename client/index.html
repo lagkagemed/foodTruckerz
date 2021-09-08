@@ -33,6 +33,10 @@
         <div class="float-middle"></div>
         <div id="rightGameMenu" class="float-child">
             <div class="float-menu">
+                <h3>Time</h3>
+                <p id="timeInfo"></p>
+            </div>
+            <div class="float-menu">
                 <h3>Money</h3>
                 <p id="moneyInfo">You currently have 1000$</p>
             </div>
@@ -42,7 +46,13 @@
             </div>
             <div class="float-menu">
                 <h3>Cook</h3>
-                <p>Sorry, you have nothing to cook!</p>
+                <input type="button" id="upgradeKitchenButton" value="Upgrade kitchen: 500$">
+                <br>
+                <br>
+                <div id="dishStatsDiv"></div>
+                <div id="ingredientsDiv"></div> 
+                <input type="text" id="recipeName" placeholder="Name this dish!">
+                <input type="button" id="cookButton" value="Cook!">
             </div>
             <div class="float-menu">
                 <h3>Connected</h3>

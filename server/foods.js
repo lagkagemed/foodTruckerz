@@ -1,7 +1,7 @@
 export const FOOD_ARRAY = [
     {
         "name": "Angelica",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Angelica is a genus of about 60 species of tall biennial and perennial herbs in the family Apiaceae, native to temperate and subarctic regions of the Northern Hemisphere, reaching as far north as Iceland and Lapland. They grow to 1–3 m tall, with large bipinnate leaves and large compound umbels of white or greenish-white flowers. Some species can be found in purple moor and rush pastures."
     },
     {
@@ -11,7 +11,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Silver linden",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Tilia tomentosa (Silver Lime in the UK and Silver Linden in the US) is a species of Tilia native to southeastern Europe and southwestern Asia, from Hungary and the Balkans east to western Turkey, occurring at moderate altitudes. It is a deciduous tree growing to 20–35 m tall, with a trunk up to 2 m diameter. The leaves are alternately arranged, rounded to triangular-ovate, 4–13 cm long and broad with a 2.5–4 cm petiole, green and mostly hairless above, densely white tomentose with white hairs below, and with a coarsely toothed margin. The flowers are pale yellow, hermaphrodite, produced in cymes of three to ten in mid to late summer with a pale green subtending leafy bract; they have a strong scent and are pollinated by honeybees. The nectar however contains sugars which cannot be digested by other bees, to whom the tree is somewhat toxic. The fruit is a dry nut-like drupe 8–10 mm long, downy, and slightly ribbed."
     },
     {
@@ -36,17 +36,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Garlic",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "With a history of human use of over 7,000 years, garlic (Allium sativum) is native to central Asia, and has long been a staple in the Mediterranean region, as well as a frequent seasoning in Asia, Africa, and Europe. There are two sub-varieties of allium sativum: Allium sativum var. sativum (soft-necked garlic) and Allium sativum var. ophioscorodon (hard-necked garlic). Soft-necked garlic is the most commonly found. Bulb garlic is available in many forms, including fresh, frozen, dried, fermented (black garlic) and shelf stable products (in tubes or jars). [Wikipedia]"
     },
     {
         "name": "Chives",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Chives is the common name of Allium schoenoprasum, the smallest species of the edible onions. A perennial plant, it is native to Europe, Asia and North America. A. schoenoprasum is the only species of Allium native to both the New and the Old Worlds. The name of the species derives from the Greek skhoínos and práson. Its English name, chives, derives from the French word cive, from cepa, the Latin word for onion. Chives are a commonly used herb and can be found in grocery stores or grown in home gardens. In culinary use, the scapes are diced and used as an ingredient for fish, potatoes, soups, and other dishes. Chives have insect-repelling properties that can be used in gardens to control pests."
     },
     {
         "name": "Lemon verbena",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Aloysia citrodora is a species of flowering plant in the verbena family Verbenaceae, native to northwestern Argentina and southern Bolivia. Common names include lemon verbena and lemon beebrush. It was brought to Europe by the Spanish and the Portuguese in the 17th century."
     },
     {
@@ -61,7 +61,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Dill",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Dill (Anethum graveolens), also known as Lao coriander, depending on where it is grown, is either a perennial or annual herb. It is the sole species of the genus Anethum.  Dill is widely grown in Eurasia where its leaves and seeds are used as a herb or spice for flavouring food. Like caraway, the fern-like leaves of dill are aromatic and are used to flavor many foods such as gravlax (cured salmon) and other fish dishes, borscht and other soups, as well as pickles (where the dill flower is sometimes used). Dill is best when used fresh as it loses its flavor rapidly if dried; however, freeze-dried dill leaves retain their flavor relatively well for a few months [Wikipedia]."
     },
     {
@@ -71,7 +71,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Wild celery",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Wild celery is a common name for several plants Wild celery may refer to Wild growing forms of celery, Apium graveolens Angelica archangelica, cultivated as a vegetable and medicinal plant Lovage, Levisticum officinale, sometimes known as wild celery Vallisneria americana, an aquatic plant in the Hydrocharitaceae family"
     },
     {
@@ -86,17 +86,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Horseradish",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Horseradish (Armoracia rusticana, syn. Cochlearia armoracia) is a perennial plant of the Brassicaceae family (which also includes mustard, wasabi, broccoli, and cabbage). The plant is probably native to southeastern Europe and western Asia. It is now popular around the world. It grows up to 1.5 metres (5 feet) tall, and is cultivated primarily for its large, white, tapered root. The intact horseradish root has hardly any aroma. When cut or grated, however, enzymes from the now-broken plant cells break down sinigrin to produce allyl isothiocyanate, which irritates the mucous membranes of the sinuses and eyes. Once exposed to air (via grating) or heat, if not used immediately or mixed in vinegar, the grated mash darkens, loses its pungency, and becomes unpleasantly bitter-tasting."
     },
     {
         "name": "Tarragon",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Tarragon (Artemisia dracunculus) is a species of perennial herb in the family Asteraceae. One sub-species, Artemisia dracunculus var. sativa, is cultivated for use of the leaves as an aromatic culinary herb. In some other sub-species, the characteristic aroma is largely absent. The species is polymorphic. Informal names for distinguishing the variations include \"French tarragon\" (best for culinary use), \"Russian tarragon\" (typically better than wild tarragon but not as good as so-called French tarragon for culinary use), and \"wild tarragon\" (covers various states).\nTarragon is one of the four fines herbes of French cooking, and is particularly suitable for chicken, fish and egg dishes. Tarragon is the main flavoring component of Béarnaise sauce. Fresh, lightly bruised sprigs of tarragon are steeped in vinegar to produce tarragon vinegar.\nTarragon is used to flavor a popular carbonated soft drink in the countries of Azerbaijan, Armenia, Georgia and, by extension, Russia, Ukraine and Kazakhstan. The drink, named Tarhun (Armenian pronunciation: [t???xun] ???????), is made out of sugary tarragon concentrate and colored bright green."
     },
     {
         "name": "Mugwort",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Mugwort (Artemisia vulgaris), or common wormwood, is a medicinal and culinary herb native to Eurasia and northern Africa. Mugwort may also refer to:"
     },
     {
@@ -126,7 +126,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Borage",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Borage (Borago officinalis), also known as a starflower, is an annual herb. It is native to the Mediterranean region and has naturalized in many other locales. It grows satisfactorily in gardens in the UK climate, remaining in the garden from year to year by self-seeding. The leaves are edible and the plant is grown in gardens for that purpose in some parts of Europe. The plant is also commercially cultivated for borage seed oil extracted from its seeds."
     },
     {
@@ -176,7 +176,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Turnip",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The turnip or white turnip (Brassica rapa subsp. rapa) is a root vegetable commonly grown in temperate climates worldwide for its white, bulbous taproot. Small, tender varieties are grown for human consumption, while larger varieties are grown as feed for livestock.\nIn the north of England and Scotland, turnip (or neep; the word turnip itself is an old compound of neep) refers to the larger, yellow rutabaga root vegetable which is also known as the \"swede\" (from \"Swedish turnip\")."
     },
     {
@@ -191,7 +191,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Capers",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Capparis spinosa, the caper bush, also called Flinders rose, is a perennial winter-deciduous plant that bears rounded, fleshy leaves and large white to pinkish-white flowers. The plant is best known for the edible flower buds (capers), often used as a seasoning, and the fruit (caper berry), both of which are usually consumed pickled. Other species of Capparis are also picked along with C. spinosa for their buds or fruits. Other parts of Capparis plants are used in the manufacture of medicines and cosmetics."
     },
     {
@@ -206,12 +206,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Safflower",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Safflower is a highly branched, herbaceous, thistle-like annual. It is commercially cultivated for vegetable oil extracted from the seeds. Plants are 30 to 150 cm (to in) tall with globular flower heads having yellow, orange, or red flowers. Each branch will usually have from one to five flower heads containing 15 to 20 seeds per head. Safflower is native to arid environments having seasonal rain. It grows a deep taproot which enables it to thrive in such environments."
     },
     {
         "name": "Caraway",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Caraway (Carum carvi), also known as meridian fennel, or Persian cumin, is a biennial plant in the family Apiaceae, native to western Asia, Europe and Northern Africa. The plant is similar in appearance to other members of the carrot family, with finely divided, feathery leaves with thread-like divisions, growing on 20–30 cm stems. The main flower stem is 40–60 cm tall, with small white or pink flowers in umbels. Caraway fruits are crescent-shaped achenes, around 2 mm long, with five pale ridges."
     },
     {
@@ -226,7 +226,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Roman camomile",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Chamaemelum nobile, commonly known as chamomile (also spelled camomile), Roman chamomile, English chamomile, garden chamomile, ground apple, low chamomile, or whig plant, is a low perennial plant found in dry fields and around gardens and cultivated grounds in Europe, North America, and Argentina. C. nobile is, along with Matricaria chamomilla, an important source of the herbal product known as chamomile."
     },
     {
@@ -246,12 +246,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Chinese cinnamon",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cinnamomum cassia, called Chinese cassia or Chinese cinnamon, is an evergreen tree originating in southern China, and widely cultivated there and elsewhere in southern and eastern Asia (India, Indonesia, Laos, Malaysia, Taiwan, Thailand, and Vietnam). It is one of several species of Cinnamomum that are used primarily for their aromatic bark, which is used as a spice. In the United States of America, Chinese cassia is often sold under the culinary name of \"cinnamon\". The buds are also used as a spice, especially in India, and were once used by the ancient Romans."
     },
     {
         "name": "Ceylon cinnamon",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cinnamomum verum, called \"true cinnamon\", Ceylon cinnamon or Sri Lanka cinnamon is a small evergreen tree belonging to the family Lauraceae, native to Sri Lanka. Among other species, its inner bark is used to make cinnamon."
     },
     {
@@ -301,7 +301,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Coriander",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Coriander (Coriandrum sativum), also known as cilantro, Chinese parsley or dhania, is an annual herb in the family Apiaceae. Coriander is native to regions spanning from southern Europe and North Africa to southwestern Asia. It is a soft, hairless plant growing to 50 cm tall. The leaves are variable in shape, broadly lobed at the base of the plant, and slender and feathery higher on the flowering stems. The flowers are borne in small umbels, white or very pale pink, asymmetrical, with the petals pointing away from the centre of the umbel longer (5–6 mm) than those pointing towards it (only 1–3 mm long). The fruit is a globular, dry schizocarp 3–5 mm (&#160) in diameter."
     },
     {
@@ -311,7 +311,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Saffron",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Saffron is a spice derived from the flower of Crocus sativus, commonly known as the saffron crocus. Crocus is a genus in the family Iridaceae. Saffron crocus grows to 20-30 cm (8-12 in) and bears up to four flowers, each with three vivid crimson stigmas, which are the distal end of a carpel. Together with the styles, or stalks that connect the stigmas to their host plant, the dried stigmas are used mainly in various cuisines as a seasoning and colouring agent. Saffron, long among the world's most costly spices by weight, is native to Greece or Southwest Asia and was first cultivated in Greece. As a genetically monomorphic clone, it was slowly propagated throughout much of Eurasia and was later brought to parts of North Africa, North America, and Oceania.\r\n\r\nSaffron's taste and iodoform or hay-like fragrance result from the chemicals picrocrocin and safranal. It also contains a carotenoid pigment, crocin, which imparts a rich golden-yellow hue to dishes and textiles. Its recorded history is attested in a 7th-century BC Assyrian botanical treatise compiled under Ashurbanipal, and it has been traded and used for over four millennia. Iran now accounts for approximately 90% of the world production of saffron."
     },
     {
@@ -331,12 +331,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Cumin",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cumin (Cuminum cyminum) is a flowering plant in the family Apiaceae as caraway, parsley, and dill., native from the east Mediterranean to India. Its seeds (each one contained within a fruit, which is dried) are used in the cuisines of many different cultures, in both whole and ground form. It also has many uses as a traditional medicinal plant.  In the ancient Egyptian civilization, cumin was used as spice and as preservative in mummification. Cumin seed is used as a spice for its distinctive flavour and aroma. Cumin can be found in some cheeses, such as Leyden cheese, and in some traditional breads from France. Cumin can be an ingredient in chili powder (often Tex-Mex or Mexican-style), and is found in achiote blends, adobos, sofrito, garam masala, curry powder, and bahaarat. In South Asian cooking, it is often combined with coriander seeds in a powdered mixture called dhana jeera. Cumin's distinctive flavour is strong. It has a warm aroma due to its essential oil content. Its main constituent aroma compounds are cuminaldehyde (a promising agent against alpha-synuclein aggregation) and cuminic alcohol. Other important aroma compounds of toasted cumin are the substituted pyrazines, 2-ethoxy-3-isopropylpyrazine, 2-methoxy-3-sec-butylpyrazine, and 2-methoxy-3-methylpyrazine. Other components include γ-terpinene, safranal, p-cymene and β-pinene  [Wikipedia]"
     },
     {
         "name": "Turmeric",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Turmeric (Curcuma longa) is a rhizomatous herbaceous perennial plant of the ginger family, Zingiberaceae. It is native to tropical Tamil Nadu, in southeast India, and needs temperatures between 20 °C and 30 °C (68 °F and 86 °F) and a considerable amount of annual rainfall to thrive. Plants are gathered annually for their rhizomes, and propagated from some of those rhizomes in the following season.\nIt is one of the key ingredients in many Asian dishes. Tamil traditional medicine, called Siddha, has recommended turmeric in food for its potential medicinal value, which is a topic of active research. Its use as a coloring agent is not of primary value in South Asian cuisine."
     },
     {
@@ -346,7 +346,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Lemon grass",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cymbopogon citratus, commonly known as lemon grass or oil grass, is a tropical plant from Southeast Asia. Cymbopogon citratus is abundant in the Philippines and Indonesia where it is known as tanglad or sereh. Its fragrant leaves are traditionally used in cooking, particularly for \"lechon\" and roasted chicken. The dried leaves can also be brewed into a tea, either alone or as a flavoring in other teas, imparting a flavor reminiscent of lemon juice but with a mild sweetness without significant sourness or tartness. [Wikipedia]"
     },
     {
@@ -366,7 +366,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Cardamom",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cardamom (or cardamon) refers to several plants of the similar genera Elettaria and Amomum in the ginger family Zingiberaceae. Both genera are native to India, Nepal and Bhutan; they are recognised by their small seed pods, triangular in cross-section and spindle-shaped, with a thin, papery, outer shell and small black seeds. Today, Guatemala is the biggest producer and exporter of cardamom in the world, followed by India. Some other countries such as Sri Lanka have also begun to cultivate it. Elettaria pods are light green while Amomum pods are larger and dark brown. It is the world's third most expensive spice by weight, outstripped in market value only by saffron and vanilla."
     },
     {
@@ -406,7 +406,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Fennel",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Fennel (Foeniculum vulgare) is a plant species in the genus Foeniculum (treated as the sole species in the genus by most botanists). It is a member of the family Apiaceae (formerly the Umbelliferae). It is a hardy, perennial, umbelliferous herb, with yellow flowers and feathery leaves. It is indigenous to the shores of the Mediterranean but has become widely naturalized in many parts of the world, especially on dry soils near the sea-coast and on riverbanks. It is a highly aromatic and flavorful herb with culinary and medicinal uses and, along with the similar-tasting anise, is one of the primary ingredients of absinthe. Florence fennel or finocchio is a selection with a swollen, bulb-like stem base that is used as a vegetable. Fennel is used as a food plant by the larvae of some Lepidoptera species including the mouse moth and the anise swallowtail."
     },
     {
@@ -426,7 +426,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sunflower",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Sunflower (Helianthus annuus) is an annual plant native to the Americas. It possesses a large inflorescence (flowering head), and its name is derived from the flower's shape and image, which is often used to depict the sun. The plant has a rough, hairy stem, broad, coarsely toothed, rough leaves and circular heads of flowers. The heads consist of many individual flowers which mature into seeds, often in the hundreds, on a receptacle base. From the Americas, sunflower seeds were brought to Europe in the 16th century, where, along with sunflower oil, they became a widespread cooking ingredient. Leaves of the sunflower can be used as cattle feed, while the stems contain a fibre which may be used in paper production."
     },
     {
@@ -441,12 +441,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Hyssop",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Hyssopus officinalis, hyssop is a herbaceous plant of the genus Hyssopus native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its properties as an antiseptic, cough reliever, and expectorant, it is commonly used as an aromatic herb and medicinal plant."
     },
     {
         "name": "Star anise",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Illicium verum, commonly called Star anise, star aniseed, or Chinese star anise is a spice that closely resembles anise in flavor, obtained from the star-shaped pericarp of Illicium verum, a medium-sized native evergreen tree of northeast Vietnam and southwest China. The star shaped fruits are harvested just before ripening."
     },
     {
@@ -481,7 +481,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sweet bay",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Laurus nobilis is an aromatic evergreen tree or large shrub with green, glossy leaves, native to the Mediterranean region. It is one of the plants used for bay leaf seasoning in cooking. It is known as bay laurel, sweet bay, bay tree (esp. United Kingdom), true laurel, Grecian laurel, laurel tree or simply laurel. Laurus nobilis figures prominently in classical Greek, Roman, and Biblical culture.\nThe plant is the source of several popular herbs and one spice used in a wide variety of recipes, particularly among Mediterranean cuisines. Most commonly, the aromatic leaves are added whole to Italian pasta sauces. However, even when cooked, whole bay leaves can be sharp and abrasive enough to damage internal organs, so they are typically removed from dishes before serving, unless used as a simple garnish. Whole bay leaves have a long shelf life of about one year, under normal temperature and humidity. Bay leaves are used almost exclusively as flavor agents during the food preparation stage;\n"
     },
     {
@@ -496,17 +496,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Lovage",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Lovage , Levisticum officinale, is a tall perennial plant, the sole species in the genus Levisticum in the family Apiaceae, subfamily Apioideae, tribe Apieae.\nThe leaves can be used in salads, or to make soup or season broths, and the roots can be eaten as a vegetable or grated for use in salads. Its flavor and smell is somewhat similar to celery. Lovage tea can be applied to wounds as an antiseptic, or drunk to stimulate digestion. The seeds can be used as a spice, similar to fennel seeds. In the UK, an alcoholic lovage cordial is traditionally mixed with brandy in the ratio of 2:1 as a winter drink. In Romania, the leaves are the preferred seasoning for the various local broths, much more so than parsley or dill. Lovage is third in its quercetin content, behind tea and capers"
     },
     {
         "name": "Flaxseed",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Flax (also known as common flax or linseed) is a member of the genus Linum in the family Linaceae. It is a food and fibre crop that is grown in cooler regions of the world. Flax fibres are taken from the stem of the plant and are two to three times as strong as those of cotton. As well, flax fibres are naturally smooth and straight. Europe and North America depended on flax for cloth until the nineteenth century, when cotton overtook flax as the most common plant used for making linen paper. Flax is grown on the Canadian Praires for linseed oil, which is used as a drying oil in paints and varnish and in products such as linoleum and printing inks. It is native to the region extending from the eastern Mediterranean to India and was probably first domesticated in the Fertile Crescent. Flax was extensively cultivated in ancient Ethiopia and ancient Egypt. A discovery reported in 2009 of spun, dyed, and knotted wild flax fibers in a prehistoric cave in the Republic of Georgia shows that the plant was already in use by humans at the surprisingly early date of 30,000 B.C. New Zealand flax is not related to flax but was named after it, as both plants are used to produce fibers."
     },
     {
         "name": "Mexican oregano",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Lippia graveolens, a species of flowering plant in the verbena family, Verbenaceae, is native to the southwestern United States (Texas and southern New Mexico), Mexico, and Central America as far south as Nicaragua. Common names include Mexican oregano, redbrush lippia, orégano Cimmaron, scented lippia, and scented matgrass.\nThe essential oil of Lippia graveolens contains 0-81% thymol, 0-48% carvacrol, 3-30% para-cymene, and 0-15% eucalyptol. The first two components give the plant a flavor similar to oregano, and the leaves are widely used as an herb in Mexico and Central America."
     },
     {
@@ -531,37 +531,37 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "German camomile",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Matricaria chamomilla, commonly known as chamomile (also spelled camomile), German chamomile, Hungarian chamomile, wild chamomile or scented mayweed, is an annual plant of the composite family Asteraceae. M. chamomilla is the most popular source of the herbal product chamomile, although other species are also used as chamomile."
     },
     {
         "name": "Lemon balm",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Lemon balm (Melissa officinalis), not to be confused with bee balm (which is genus Monarda), is a perennial herb in the mint family Lamiaceae, native to southern Europe and the Mediterranean region. It grows to 70–150 cm tall. The leaves have a gentle lemon scent, related to mint. During summer, small white flowers full of nectar appear. These attract bees, hence the genus name Melissa (Greek for 'honey bee'). Its flavour comes from citronellal (24%), geranial (16%), linalyl acetate (12%) and caryophyllene (12%)."
     },
     {
         "name": "Mentha",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Mentha (also known as Mint, from Greek míntha, Linear B mi-ta) is a genus of flowering plants in the family Lamiaceae (mint family). The species are not clearly distinct and estimates of the number of species varies from 13 to 18. Hybridization between some of the species occurs naturally. Many other hybrids as well as numerous cultivars are known in cultivation. The genus has a subcosmopolitan distribution across Europe, Africa, Asia, Australia, and North America. Mints are aromatic, almost exclusively perennial, rarely annual, herbs. They have wide-spreading underground and overground stolons and erect, square, branched stems. The leaves are arranged in opposite pairs, from oblong to lanceolate, often downy, and with a serrate margin. Leaf colors range from dark green and gray-green to purple, blue, and sometimes pale yellow. The flowers are white to purple and produced in false whorls called verticillasters. The corolla is two-lipped with four subequal lobes, the upper lobe usually the largest. The fruit is a small, dry capsule containing one to four seeds. While the species that make up the Mentha genus are widely distributed and can be found in many environments, most Mentha grow best in wet environments and moist soils. Mints will grow 10?120 cm tall and can spread over an indeterminate area. Due to their tendency to spread unchecked, mints are considered invasive."
     },
     {
         "name": "Orange mint",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Mentha citrata (Ehrh.) (syn. Mentha × piperita L. var. citrata (Ehrh.) Briq.; syn. Mentha aquatica var. citrata (Ehrh.) Benth.; syn. Mentha odorata Sole, Mentha adspersa Moench) is an herb. It is also known as Bergamot mint, Eau-de-cologne Mint, Horsemint, Lemon Mint, Lime Mint, Orange Mint, Pineapple Mint, Su Nanesi, Water Mint, Wild Water Mint, and in Central America Yerba Buena.\nThis herb has a characteristic lemon odor when crushed. It is sometimes used to make a tea similar to lemonade.\nA tea made from the fresh or dried leaves has traditionally been used:\n-For stomach aches, nausea, parasites and other digestive disorders,\n-For nerves and sick stomach, and\n-For fevers and headaches.\nThe leaves and flowering plant have analgesic, antiseptic, antispasmodic, carminative, cholagogic, diaphoretic, and vasodilator properties. Like other members of the genus Mentha, it is best not used by pregnant women because large doses can cause miscarriage."
     },
     {
         "name": "Cornmint",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Mentha arvensis (Field Mint, Wild Mint or Corn Mint) is a species of mint with a circumboreal distribution. It is native to the temperate regions of Europe and western and central Asia, east to the Himalaya and eastern Siberia, and North America. It is a herbaceous perennial plant growing to 10–60 cm (rarely to 100 cm) tall. The leaves are in opposite pairs, simple, 2–6.5 cm long and 1–2 cm broad, hairy, and with a coarsely serrated margin. The flowers are pale purple (occasionally white or pink), in clusters on the stem, each flower 3–4 mm long. Uses & Benefits of Podina: 50x40pxThis article does not cite any references or sources. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Podina is used as a carminative and an expectorant. The plant is highly effective in treating headaches, rhinitis, cough sore throat, colic, prurigo and vomiting. It serves as a good blood cleanser, since it is antiseptic and anti-bacterial. Podina plays a significant role in alleviating swollen gums, mouth ulcers and toothaches. Crushed and bruised pudina leaves are used in treating insect bites. The decoction and infusion of its leaves and stems helps in fever, stomachaches, dysmenorrheal and diuresis. Fresh leaves of podina are crushed and sniffed for dizziness. Crushed leaves are also applied on the forehead and temple, to cure headaches. For toothaches, boil 6 tablespoons of pudina leaves in 2 glasses of water, for 15 minutes. Strain and cool the water. Divide it into two parts and take each part after 3 to 4 hours. Boil 6 tablespoons of chopped leaves in 2 glasses of water, for 15 minutes. Cool and strain. Divide the decoction into 3 parts and consume three times a day. This will help in treating coughs. For treating arthritis, take some fresh leaves and heat on low flame. Pound them and apply on the painful joints or muscles, when still warm. Soak 2 tablespoons of chopped leaves in a glass of hot water for 30 minutes and strain. Use the infusion as a mouthwash. The menthol extracted from the plant is used in preparing balms. It is used as a flavoring agent in many culinary preparations There are six subspecies: Mentha arvensis subsp. arvensis. Mentha arvensis subsp. agrestis Briq. Mentha arvensis subsp. austriaca (Jacq. ) Briq. Mentha arvensis subsp. lapponica (Wahlenb. ) Neuman Mentha arvensis subsp. palustris (Moench) Neumann Mentha arvensis subsp. parietariifolia (Becker) Briq. The related species Mentha canadensis is also included in M. arvensis by some authors as two varieties, M. arvensis var. glabrata Fernald (in reference to North American plants) and M. arvensis var. piperascens Malinv. ex L. H. Bailey (in reference to eastern Asian plants)."
     },
     {
         "name": "Spearmint",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Spearmint or spear mint (Mentha spicata) is a species of mint native to much of Europe and southwest Asia, though its exact natural range is uncertain due to extensive early cultivation.\nSpearmint grows well in nearly all temperate climates. Gardeners often grow it in pots or planters due to its invasive, spreading rhizomes. The plant prefers partial shade, but can flourish in full sun to mostly shade. Spearmint is best suited to loamy soils with abundant organic material.\nSpearmint leaves can be used fresh, dried, or frozen. They can also be preserved in salt, sugar, sugar syrup, alcohol, or oil. The leaves lose their aromatic appeal after the plant flowers. It can be dried by cutting just before, or right (at peak) as the flowers open, about one-half to three-quarters the way down the stalk (leaving smaller shoots room to grow). Some dispute exists as to what drying method works best; some prefer different materials (such as plastic or cloth) and different lighting conditions (such as darkness or sunlight).\nSpearmint is often cultivated for its aromatic and carminative oil, referred to as oil of spearmint. The most abundant compound in spearmint oil is R-(?)-carvone, which gives spearmint its distinctive smell. Spearmint oil also contains significant amounts of limonene, dihydrocarvone, and 1,8-cineol. Unlike peppermint oil, oil of spearmint contains minimal amounts of menthol and menthone. It is used as a flavoring for toothpaste and confectionery, and is sometimes added to shampoos and soaps."
     },
     {
         "name": "Peppermint",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Peppermint (Mentha × piperita, also known as M. balsamea Willd.) is a hybrid mint, a cross between watermint and spearmint. The plant, indigenous to Europe, is now widespread in cultivation throughout all regions of the world. It is found wild occasionally with its parent species. Fresh or dried peppermint leaves are often used alone or with other herbs in herbal teas (tisanes, infusions). Peppermint is used for flavouring ice cream, confectionery, chewing gum, and toothpaste, and can also be found in some shampoos, soaps and skin care products. Menthol activates cold-sensitive TRPM8 receptors in the skin and mucosal tissues, and is the primary source of the cooling sensation that follows the topical application of peppermint oil. Peppermint has a high menthol content. The oil also contains menthone and carboxyl esters, particularly menthyl acetate. Dried peppermint typically has 0.3–0.4% of volatile oil containing menthol (7–48%), menthone (20–46%), menthyl acetate (3–10%), menthofuran (1–17%) and 1,8-cineol (3–6%). Peppermint oil also contains small amounts of many additional compounds including limonene, pulegone, caryophyllene and pinene.  Peppermint also contains terpenoids and flavonoids  [Wikipedia]"
     },
     {
@@ -586,17 +586,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Nutmeg",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The nutmeg tree is any of several species of trees in genus Myristica. The most important commercial species is Myristica fragrans, an evergreen tree indigenous to the Banda Islands in the Moluccas (or Spice Islands) of Indonesia.\r\nThe nutmeg tree is important for two spices derived from the fruit: nutmeg and mace.\r\nNutmeg is the seed of the tree, roughly egg-shaped and about 20 to 30 mm (0.8 to 1.2 in) long and 15 to 18 mm (0.6 to 0.7 in) wide, and weighing between 5 and 10 g (0.2 and 0.4 oz) dried, while mace is the dried \"lacy\" reddish covering or aril of the seed. The first harvest of nutmeg trees takes place 7-9 years after planting, and the trees reach full production after twenty years. Nutmeg is usually used in powdered form. This is the only tropical fruit that is the source of two different spices. Several other commercial products are also produced from the trees, including essential oils, extracted oleoresins, and nutmeg butter .\r\nThe common or fragrant nutmeg, Myristica fragrans, native to the Banda Islands of Indonesia, is also grown in Penang Island in Malaysia and the Caribbean, especially in Grenada. It also grows in Kerala, a state in southern India. Other species of nutmeg include Papuan nutmeg M. argentea from New Guinea, and M. malabarica from India.\r\n\r\nIn low doses, nutmeg produces no noticeable physiological or neurological response, but in large doses, raw nutmeg has psychoactive effects.[citation needed] In its freshly ground form (from whole nutmegs), nutmeg contains myristicin, a monoamine oxidase inhibitor and psychoactive substance.[citation needed] Myristicin poisoning can induce convulsions, palpitations, nausea, eventual dehydration, and generalized body pain. Fatal myristicin poisonings in humans are very rare."
     },
     {
         "name": "Sweet basil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Basil, Thai basil, or sweet basil, is a common name for the culinary herb Ocimum basilicum of the family Lamiaceae (mints), sometimes known as Saint John's Wort in some English-speaking countries.\nBasil is originally native to India, having been cultivated there for more than 5,000 years, but was thoroughly familiar to Theophrastus and Dioscorides. It is a half-hardy annual plant, best known as a culinary herb prominently featured in Italian cuisine, and also plays a major role in Southeast Asian cuisines of Indonesia, Thailand, Vietnam, Cambodia, Laos, and the cuisine of Taiwan. Depending on the species and cultivar, the leaves may taste somewhat like anise, with a strong, pungent, often sweet smell.\nThere are many varieties of Ocimum basilicum, as well as several related species or species hybrids also called basil. The type used in Italian food is typically called sweet basil, as opposed to Thai basil (O. basilicum var. thyrsiflora), lemon basil (O. X citriodorum) and holy basil (Ocimum tenuiflorum), which are used in Asia. While most common varieties of basil are treated as annuals, some are perennial in warm, tropical climates, including holy basil and a cultivar known as 'African Blue'."
     },
     {
         "name": "Evening primrose",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Oenothera is a genus of about 145 species of herbaceous flowering plants native to the Americas. It is the type genus of the family Onagraceae. Common names include evening primrose, suncups, and sundrops. They are not closely related to the true primroses (genus Primula).\nCertain Oenothera plants have edible parts. The roots of O. biennis are reportedly edible in young plants."
     },
     {
@@ -606,17 +606,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sweet marjoram",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Marjoram (Origanum majorana, syn. Majorana hortensis Moench, Majorana majorana (L.) H. Karst) is a somewhat cold-sensitive perennial herb or undershrub with sweet pine and citrus flavors. In some Middle-Eastern countries, marjoram is synonymous with oregano, and there the names sweet marjoram and knotted marjoram are used to distinguish it from other plants of the genus Origanum.\nThe name marjoram (Old French majorane, Medieval Latin majorana) does not directly derive from the Latin word maior (major). Marjoram is indigenous to Cyprus and southern Turkey, and was known to the Greeks and Romans as a symbol of happiness.\nMarjoram is used for seasoning soups, stews, dressings and sauce.  Majorana hortensis herb has been used in the traditional Austrian medicine for treatment of disorders of the gastrointestinal tract and infections."
     },
     {
         "name": "Pot marjoram",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Origanum onites, the Cretan oregano, Turkish oregano, pot marjoram or rίgani in Greek (Ελληνική ρίγανη), is a plant species in the genus Origanum found in Greece and Turkey. It has similar flavors as oregano. Its essential oil can be distinguished from other species such as Greek oregano (Origanum vulgare ssp. hirtum). The plant contains the chemical compounds thymol, carvacrol and cedrol.  It has antimicrobial activities. [Wikipedia]"
     },
     {
         "name": "Common oregano",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Oregano (scientific name Origanum vulgare) is a common species of Origanum, a genus of the mint family (Lamiaceae). It is native to warm-temperate western and southwestern Eurasia and the Mediterranean region.\nOregano is an important culinary herb, used for the flavour of its leaves, which can be more flavourful when dried than fresh. It has an aromatic, warm and slightly bitter taste, which can vary in intensity. Good quality oregano may be strong enough almost to numb the tongue, but the cultivars adapted to colder climates often have a lesser flavor. Factors such as climate, seasons and soil composition may affect the aromatic oils present, and this effect may be greater than the differences between the various species of plants. Among the chemical compounds contributing to the flavour are carvacrol, thymol, limonene, pinene, ocimene, and caryophyllene"
     },
     {
@@ -631,7 +631,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Poppy",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The Poppy is an Angiospermae or flowering plant of the family Papaveraceae. Ornamental poppies are grown for their colorful flowers; some varieties of poppy are used as food, whilst other varieties produce the powerful medicinal alkaloid opium which has been used since ancient times to create analgesic and narcotic medicinal and recreational drugs. Following the trench warfare of the 1st World War which took place in the poppy fields of Flanders, red poppies have become a symbol of remembrance of soldiers who have died during wartime. Poppy flowers have 4 to 6 petals, many stamens forming a conspicuous whorl in the center of the flower and an ovary consisting of from 2 to many fused carpels. Poppies can grow to be over 4 feet tall, and 6 inches across. (Simon, Chadwick, and Craker 1984) The petals are showy, may be of almost any color and some have markings. The petals are crumpled in the bud and as blooming finishes, the petals often lie flat before falling away. The poppy will become dormant after blooming. Poppies are in full bloom late spring to early summer. (Simon, Chadwick, and Craker 1984) Most species secrete latex when injured. The pollen of the oriental poppy, Papaver orientale, is dark blue. The Papaver Somniferum poppy is mainly grown in Eastern and Southern Asia, and South Eastern Europe. It is believed that it originated in the Mediterranean region. (Jonsson and Krzymanski, 1989) The pollen of the field poppy or corn poppy (Papaver rhoeas) is dark green to grey. Bees use poppies as a pollen source. Poppies belong to genera of Papaveraceae, which includes: Papaver – corn poppy, Opium poppy, Oriental poppy, Iceland poppy, and about 120 other species Eschscholzia – California poppy and relatives Meconopsis – Welsh poppy, Nepal poppy, and relatives Stylophorum – Celandine poppy or wood poppy Argemone – Prickly poppy Romneya – Matilija poppy and relatives Canbya – Pygmy poppy Stylomecon – Wind poppy Arctomecon – desert bearpaw poppy Hunnemannia – Tulip poppy Dendromecon – Tree poppy"
     },
     {
@@ -651,7 +651,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Parsley",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Parsley or garden parsley (Petroselinum crispum) is a species of Petroselinum in the family Apiaceae, native to the central Mediterranean region, naturalized elsewhere in Europe, and widely cultivated as an herb, a spice and a vegetable."
     },
     {
@@ -681,7 +681,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Anise",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Anise, Pimpinella anisum, also called aniseed, is a flowering plant in the family Apiaceae native to the eastern Mediterranean region and Southwest Asia. Its flavor has similarities with some other spices, such as star anise, fennel and liquorice."
     },
     {
@@ -691,7 +691,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Pepper (Spice)",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Black pepper (Piper nigrum) is a flowering vine in the family Piperaceae, cultivated for its fruit, which is usually dried and used as a spice and seasoning. The fruit, known as a peppercorn when dried, is approximately 5 millimetres in diameter, dark red when fully mature, and, like all drupes, contains a single seed. Peppercorns, and the ground pepper derived from them, may be described simply as pepper, or more precisely as black pepper (cooked and dried unripe fruit), green pepper (dried unripe fruit) and white pepper (dried ripe seeds). Black pepper is native to south India, and is extensively cultivated there and elsewhere in tropical regions. Currently Vietnam is the world's largest producer and exporter of pepper, producing 34% of the world's Piper nigrum crop as of 2008. Dried ground pepper has been used since antiquity for both its flavour and as a medicine. Black pepper is the world's most traded spice. It is one of the most common spices added to European cuisine and its descendants. The spiciness of black pepper is due to the chemical piperine, not to be confused with the capsaicin that gives fleshy peppers theirs. It is ubiquitous in the modern world, often paired with salt."
     },
     {
@@ -706,7 +706,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Purslane",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Purslane is a common name for several plants with edible leaves and may refer to: Portulacaceae, a family of succulent flowering plants, and especially: Portulaca oleracea, a species of Portulaca eaten as a vegetable and considered a weed, known as summer purslane Portulaca grandiflora, moss rose, or moss-rose purslane Claytonia perfoliata, Miner's lettuce or winter purslane Claytonia sibirica, pink purslane Halimione portulacoides, sea purslane"
     },
     {
@@ -786,12 +786,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Watercress",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Watercress (Nasturtium officinale), is a fast-growing, aquatic or semi-aquatic, perennial plant native to Europe and Asia, and one of the oldest known leaf vegetables consumed by humans. It is a member of the family Brassicaceae, botanically related to garden cress, mustard and radish — all noteworthy for a peppery, tangy flavour. The hollow stems of watercress are floating, and the leaves are pinnately compound. Small, white and green flowers are produced in clusters."
     },
     {
         "name": "Rosemary",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Rosmarinus officinalis, commonly known as rosemary, is a woody, perennial herb with fragrant, evergreen, needle-like leaves and white, pink, purple, or blue flowers, native to the Mediterranean region. It is a member of the mint family Lamiaceae, which includes many other herbs. The name \"rosemary\" derives from the Latin for \"dew\" (ros) and \"sea\" (marinus), or \"dew of the sea\". The plant is also sometimes called anthos, from the ancient Greek word, meaning \"flower\".\r\nRosemary is used as a decorative plant in gardens and has many culinary and medical uses. The plant is said to improve the memory. The leaves are used to flavor various foods, such as stuffings and roast meats."
     },
     {
@@ -816,12 +816,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sorrel",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Common sorrel or garden sorrel (Rumex acetosa), often simply called sorrel, is a perennial herb in the family Polygonaceae. Other names for sorrel include spinach dock and narrow-leaved dock. It is a common plant in grassland habitats and is cultivated as a garden herb or leaf vegetable (pot herb)."
     },
     {
         "name": "Common sage",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Salvia officinalis (sage, also called garden sage, or common sage) is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the family Lamiaceae and is native to the Mediterranean region, though it has naturalized in many places throughout the world. It has a long history of medicinal and culinary use, and in modern times as an ornamental garden plant. The common name \"sage\" is also used for a number of related and unrelated species."
     },
     {
@@ -831,12 +831,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Summer savory",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Summer savory (Satureja hortensis) is the better known of the savory species. It is an annual, but otherwise is similar in use and flavor to the perennial winter savory. It is used more often than winter savory, as winter savory is thought to have a slightly more bitter flavor.\nSummer savory is a traditional popular herb in Atlantic Canada, where it is used in the same way sage is elsewhere. It is the main flavoring in dressing for many fowl, mixed with ground pork and other basic ingredients to create a thick meat dressing known as \"cretonade\", which may be eaten with turkey, goose and duck. It also is used to make stews such as fricot, and in meat pies. It is usually available year-round in local grocery stores in dried form and is used in varying proportions, sometimes added to recipes in large generous heaping spoonfuls (such as in cretonade), and sometimes more subtly (as in beans, for which savory has a natural affinity). Summer savory is a characteristic ingredient of herbes de Provence, a fairly standard mixture of dried herbs sold in most French food stores. It is also widely used as a seasoning for grilled meats and barbecues, as well as in stews and sauces."
     },
     {
         "name": "Winter savory",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Winter savory (Satureja montana) is a perennial herb in the family Lamiaceae, native to warm temperate regions of southern Europe. It is a semi-evergreen, semi-woody subshrub growing to 16 in tall. The leaves are opposite, oval-lanceolate, 1–2 cm long and 5 mm broad. The flowers are white."
     },
     {
@@ -846,7 +846,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sesame",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Sesame is a flowering plant in the genus Sesamum. Numerous wild relatives occur in Africa and a smaller number in India. It is widely naturalized in tropical regions around the world and is cultivated for its edible seeds, which grow in pods. Sesame seed is considered to be the oldest oilseed crop known, domesticated well over 5000 years ago. Sesame is very drought-tolerant. It has been called a survivor crop, with an ability to grow where most crops fail. Sesame has one of the highest oil contents of any seed. With a rich nutty flavor, it is a common ingredient in cuisines across the world. Sesame, like other nuts and foods, can trigger allergic reactions in some people. The world harvested about 3.84 million metric tonnes of sesame seeds in 2010. The largest producer of sesame seeds in 2010 was Burma. The world's largest exporter of sesame seeds was India, and Japan the largest importer."
     },
     {
@@ -891,7 +891,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Cloves",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice. Cloves are commercially harvested primarily in Indonesia, India, Madagascar, Zanzibar, Pakistan, Sri Lanka?and the largest producer, Pemba Island, just off the coast of Tanzania.\nThe clove tree is an evergreen that grows up to 8?12 m tall, with large leaves and sanguine flowers grouped in terminal clusters. The flower buds initially have a pale hue, gradually turn green, then transition to a bright red when ready for harvest. Cloves are harvested at 1.5?2.0 cm long, and consist of a long calyx that terminates in four spreading sepals, and four unopened petals that form a small central ball."
     },
     {
@@ -901,7 +901,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Dandelion",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Taraxacum is a large genus of flowering plants in the family Asteraceae. They are native to Eurasia and North and South America, and two species, T. officinale and T. erythrospermum, are found as weeds worldwide. Both species are edible in their entirety. The common name dandelion (from French dent-de-lion, meaning \"lion's tooth\") is given to members of the genus, and like other members of the Asteraceae family, they have very small flowers collected together into a composite flower head. Each single flower in a head is called a floret. Many Taraxacum species produce seeds asexually by apomixis, where the seeds are produced without pollination, resulting in offspring that are genetically identical to the parent plant."
     },
     {
@@ -911,22 +911,22 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Common thyme",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Thymus vulgaris or common thyme is a low growing herbaceous plant, sometimes becoming somewhat woody. It is native to southern Europe, where it is often cultivated as a culinary herb. It typically grows as a sub-shrub, between 15 and 20 cm tall."
     },
     {
         "name": "Linden",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "<i>Tilia</i> is a genus of about 30 species of trees native throughout most of the temperate Northern Hemisphere. Commonly called lime trees in the British Isles, they are not related to the lime fruit. Other names include linden, and basswood for the North American species. The genus occurs in Europe and eastern North America, but the greatest species diversity is found in Asia. Under the Cronquist classification system, this genus was placed in the family Tiliaceae, but genetic research summarised by the Angiosperm Phylogeny Group has resulted in the incorporation of this genus, and of most of the previous family, into the Malvaceae.\r\n\r\n<i>Tilia</i> species are mostly large, deciduous trees, reaching typically 20 to 40 metres (65 to 130 ft) tall, with oblique-cordate leaves 6 to 20 centimetres (2 1⁄4 to 7 3⁄4 in) across. As with elms, the exact number of species is uncertain, as many if not most of the species will hybridise readily, both in the wild and in cultivation. Limes are hermaphroditic, having perfect flowers with both male and female parts, pollinated by insects.\r\n\r\nThe dried flowers are mildly sweet and sticky, and the fruit is somewhat sweet and mucilaginous. Limeflower tea has a pleasing taste, due to the aromatic volatile oil found in the flowers. The flowers, leaves, wood, and charcoal (obtained from the wood) are used for medicinal purposes. Active ingredients in the <i>Tilia</i> flowers include flavonoids (which act as antioxidants) and volatile oils. The plant also contains tannins that can act as an astringent.\r\n\r\nLinden flowers are used in herbalism for colds, cough, fever, infections, inflammation, high blood pressure, headache (particularly migraine), and as a diuretic (increases urine production), antispasmodic (reduces smooth muscle spasm along the digestive tract), and sedative. In the traditional Austrian medicine <i>Tilia</i> sp. flowers have been used internally as tea for treatment of disorders of the respiratory tract, fever and flu. New evidence shows that the flowers may be hepatoprotective. The wood is used for liver and gallbladder disorders and cellulitis (inflammation of the skin and surrounding soft tissue). That wood burned to charcoal is ingested to treat intestinal disorders and used topically to treat edema or infection such as cellulitis or ulcers of the lower leg.\r\n\r\nUsually, the double-flowered species are used to make perfumes. The leaf buds and young leaves are also edible raw. Tilia species are used as food plants by the larvae of some Lepidoptera; see List of Lepidoptera that feed on <i>Tilia</i>. (Wikipedia)"
     },
     {
         "name": "Small-leaf linden",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Tilia cordata (Small-leaved Lime, occasionally Small-leaved Linden or Little-leaf Linden) is a species of Tilia native to much of Europe and western Asia, north to southern Great Britain (north to about Durham), central Scandinavia, all over Romania, east to central Russia, and south to central Spain, Italy, Bulgaria, Turkey, and the Caucasus; in the south of its range it is restricted to high altitudes. It is a deciduous tree growing to 20-38 m tall, with a trunk up to 1-2 m diameter. The leaves are alternately arranged, rounded to triangular-ovate, 3-8 cm long and broad, mostly hairless (unlike the related Tilia platyphyllos) except for small tufts of brown hair in the leaf vein axils - the leaves are distinctively heart-shaped. The small yellow-green hermaphrodite flowers are produced in clusters of five to eleven in early summer with a leafy yellow-green subtending bract, have a rich, heavy scent; the trees are much visited by bees. The fruit is a dry nut-like drupe 6–7 mm long and 4 mm broad, downy at first becoming smooth at maturity, and (unlike T. platyphyllos) not ribbed. The Linden honey is considered to be valuable in both nutricional and medical aspects. It readily hybridises with Tilia platyphyllos; the hybrid is named Tilia × europaea (syn. T. × vulgaris). In Britain, it is considered an indicator of ancient woodland, and is becoming increasingly rare."
     },
     {
         "name": "Fenugreek",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Fenugreek  (Trigonella foenum-graecum) is an annual plant in the family Fabaceae, with leaves consisting of three small obovate to oblong leaflets. It is cultivated worldwide as a semiarid crop. Its seeds and its leaves are common ingredients in dishes from South Asia. Fenugreek is used as a herb (dried or fresh leaves), spice (seeds), and vegetable (fresh leaves, sprouts, and microgreens). Sotolon is the chemical responsible for fenugreek's distinctive sweet smell. Cuboid-shaped, yellow- to amber-coloured fenugreek seeds are frequently encountered in the cuisines of the Indian subcontinent, used both whole and powdered in the preparation of pickles, vegetable dishes dal, and spice mixes such as panch phoron and sambar powder. They are often roasted to reduce bitterness and enhance flavour. Constituents of fenugreek seeds include flavonoids, alkaloids, coumarins, vitamins, and saponins; the most prevalent alkaloid is trigonelline and coumarins include cinnamic acid and scopoletin (Wikipedia)."
     },
     {
@@ -971,12 +971,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Vanilla",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Vanilla is a flavor derived from orchids of the genus Vanilla, primarily from the Mexican species, flat-leaved vanilla (V. planifolia). The word vanilla, derived from the diminutive of the Spanish word vaina (vaina itself meaning sheath or pod), simply translates as little pod. Pre-Columbian Mesoamerican people cultivated the vine of the vanilla orchid, called tlilxochitl by the Aztecs, and Spanish conquistador Hernán Cortés is credited with introducing both vanilla and chocolate to Europe in the 1520s."
     },
     {
         "name": "Common verbena",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Verbena officinalis, the Common Vervain or Common Verbena, is a perennial herb native to Europe. It grows up to a metre/yard high, with an upright habitus. The lobed leaves are toothed, the delicate spikes hold mauve flowers. This plant prefers limey soils; it is occasionally grown as an ornamental plant but perhaps more often for the powerful properties some herbalists ascribe to it. Propagation is by root cuttings or seed. It is widely naturalised outside its native range, for example in North America."
     },
     {
@@ -1026,7 +1026,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Ginger",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Ginger or ginger root is the rhizome of the plant Zingiber officinale, consumed as a delicacy, medicine, or spice. It lends its name to its genus and family. Other notable members of this plant family are turmeric, cardamom, and galangal. Ginger cultivation began in South Asia and has since spread to East Africa and the Caribbean."
     },
     {
@@ -1076,7 +1076,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Chinese chives",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Allium tuberosum, (commonly known as garlic chives, Chinese chives, Oriental garlic, Chinese leek, also known by the Chinese name kow choi (also transliterated as gau choy; Chinese: ??; pinyin: Ji?cài; Wade?Giles: Chiu3-ts'ai4; Jyutping: gau2 coi3), or the Japanese name nira, is a vegetable related to onion. The Chinese name for the species is variously adapted and transliterated as cuchay, jiucai, kucai, kuchay, or kutsay in Southeast Asian countries such as Indonesia, Malaysia and the Philippines. It is also sometimes called \"green nira grass\" where \"nira\" is Romanization of the Japanese word \"??\" which means garlic chives. The plant has a distinctive growth habit with strap-shaped leaves[5] unlike either onion or garlic, and straight thin white-flowering stalks that are much taller than the leaves. The flavor is more like garlic than chives. It grows in slowly expanding perennial clumps, but also readily sprouts from seed. In warmer areas, garlic chives may remain green all year round. In cold climates, aerial parts of garlic chives will die back completely to the ground and the roots/rhizomes will over-winter and then re-sprout in spring time."
     },
     {
@@ -1091,7 +1091,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Ginseng",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Ginseng is any one of 11 species of slow-growing perennial plants with fleshy roots, belonging to the genus Panax of the family Araliaceae. Ginseng is found only in the Northern Hemisphere, in North America and in eastern Asia (mostly Korea, northeastern China, Bhutan, and eastern Siberia), typically in cooler climates. Panax vietnamensis, discovered in Vietnam, is the southernmost ginseng known. This article focuses on the series Panax ginsengs, which are the adaptogenic herbs, principally Panax ginseng and P. quinquefolius. Ginseng is characterized by the presence of ginsenosides. Siberian ginseng is in the same family, but not genus, as true ginseng. Like ginseng, it is considered to be an adaptogenic herb. The active compounds in Siberian ginseng are eleutherosides, not ginsenosides. Instead of a fleshy root, Siberian ginseng has a woody root."
     },
     {
@@ -1186,7 +1186,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Lemon thyme",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Thymus pulegioides (common names broad-leaved thyme, lemon thyme) is a species of flowering plant in the family Lamiaceae, native to Europe. Growing to 5-25 cm (2-10 in) tall by 25 cm (10 in) wide, it is a small spreading subshrub with strongly aromatic leaves, and lilac pink flowers in early summer. The specific epithet pulegioides highlights its similarity to another species within Lamiaceae, Mentha pulegium (pennyroyal)."
     },
     {
@@ -1201,7 +1201,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Welsh onion",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Allium fistulosum L. (Welsh onion, Japanese bunching onion) is a perennial onion. Other names that may be applied to this plant include green onion, spring onion, scallion, escallion, and salad onion. These names are ambiguous, as they may also be used to refer to any young green onion stalk, whether grown from Welsh onions, common onions, or other similar members of the genus Allium (see scallion). The species is very similar in taste and odor to the related common onion, Allium cepa, and hybrids between the two (tree onions) exist. The Welsh onion, however, does not develop bulbs, and possesses hollow leaves (\"fistulosum\" means \"hollow\") and scapes. Large varieties of the Welsh onion resemble the leek, such as the Japanese 'negi', whilst smaller varieties resemble chives. Many Welsh onions can multiply by forming perennial evergreen clumps. Next to culinary use, it is also grown in a bunch as an ornamental plant."
     },
     {
@@ -1241,7 +1241,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Celery leaves",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Chinese celery (Apium graveolens var. secalinum), is a variety of celery cultivated in East Asian countries for its edible, flavorful stalks and leaves. The stems are thinner than those of regular celery, and curved into round, hollow stalks. Also, unlike with regular celery, the leaves are used as much as the stalks."
     },
     {
@@ -1291,7 +1291,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Italian oregano",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Italian oregano (<i>Origanum</i> X <i>Majoricum</i>) is a dark green bushy perennial that blooms pink to lavender. It is an aromatic herb used for flavouring."
     },
     {
@@ -1326,7 +1326,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Pineappple sage",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Salvia elegans, commonly called Pineapple sage or Tangerine Sage, is a perennial shrub native to Mexico and Guatemala. It inhabits Madrean and Mesoamerican pine-oak forests between 6,000 and 9,000 ft (1,800 and 2,700 m).\nS. elegans has tubular red flowers and an attractive scent to the leaves that is similar to pineapple. The leaves and flowers of S. elegans are edible. The plant is extensively used in Mexican traditional medicine, especially for the treatment of anxiety, and also for lowering of blood pressure. Although scientific information about these medicinal properties is scarce, a preliminary study on mice found support for the plant potentially having antidepressant and antianxiety properties. Pineapple sage has also been shown to have a dose-dependent antihypertensive effect, attributed to its action as an angiotensin II receptor antagonist and inhibitor of the angiotensin converting enzyme."
     },
     {
@@ -1426,17 +1426,17 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Alfalfa",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Alfalfa, Medicago sativa, also called lucerne, is a perennial flowering plant in the pea family Fabaceae cultivated as an important forage crop in many countries around the world. The Spanish-Arabic (according to wiktionary and the DRAE) name alfalfa is widely used, particularly in North America and Australia. But in the UK, South Africa and New Zealand, the more commonly used name is lucerne. It superficially resembles clover, with clusters of small purple flowers followed by fruits spiralled in 2 to 3 turns containing 10-20 seeds. Alfalfa is native to a warmer temperate climate such as that of Iran (where it is thought to have originated). It has been cultivated as livestock fodder since at least the era of the ancient Greeks and Romans."
     },
     {
         "name": "Allspice",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Allspice, also called Jamaica pepper, pepper, myrtle pepper, pimenta, pimento, English pepper or newspice, is the dried unripe fruit (\"berries\", used as a spice) of Pimenta dioica, a midcanopy tree native to the Greater Antilles, southern Mexico, and Central America, now cultivated in many warm parts of the world. The name 'allspice' was coined as early as 1621 by the English, who thought it combined the flavour of cinnamon, nutmeg, and cloves.\nSeveral unrelated fragrant shrubs are called \"Carolina allspice\" (Calycanthus floridus), \"Japanese allspice\" (Chimonanthus praecox), or \"wild allspice\" (Lindera benzoin). Allspice is also sometimes used to refer to the herb costmary (Tanacetum balsamita)."
     },
     {
         "name": "Amaranth",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Amaranthus, collectively known as amaranth,[citation needed] is a cosmopolitan genus of annual or short-lived perennial plants. Catkin-like cymes of densely packed flowers grow in summer or autumn. Approximately 60 species are recognized, with inflorescences and foliage ranging from purple and red to green or gold. Members of this genus share many characteristics and uses with members of the closely related genus Celosia.\nAlthough several species are often considered weeds, people around the world value amaranths as leaf vegetables, cereals, and ornamental plants.\n\"Amaranth\" derives from Greek ????????? (amarantos), \"unfading,\" with the Greek word for \"flower,\" ????? (anthos), factoring into the word's development as \"amaranth.\" The more accurate \"amarant\" is an archaic variant."
     },
     {
@@ -1546,7 +1546,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Breadnut tree seed",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Brosimum alicastrum, the breadnut or Maya nut, is a Brosimum tree species under the Moraceae family of flowering plants, whose other genera include fig and mulberries The plant is known by a range of names in indigenous Mesoamerican and other languages, including but not limited to: ramon,ojoche, ojite, ojushte, ujushte, ujuxte, capomo, mojo, ox, iximche, masica in Honduras, uje in Michoacan, and mojote in Jalisco. Two subspecies are commonly recognized: Brosimum alicastrum ssp. alicastrum Brosimum alicastrum ssp. bolivarense Distribution and habitat: The west coast of central Mexico, southern Mexico, Guatemala, El Salvador, the Caribbean, and the Amazon. Large stands in moist lowland tropical forests 300–2000 m elevation (especially 125–800 m), in humid areas where rainfall of 600–2000 mm, and average temperature 24 C / 75 F. The breadnut fruit disperses on the ground at different times throughout its range. It has a large seed covered by a thin, citrus-flavored orange-colored skin favored by a number of forest creatures. More important, the large seed which is enveloped by the tasty skin is an edible ‘nut’ that can be boiled or dried and ground into a meal for porridge or flatbread. Breadnut is nutritious and has value as a food source, and formed a part of the diet of the pre-Columbian Maya of the lowlands region in Mesoamerica, although to what extent has been a matter of some debate among Maya historians and archaeologists. It was planted by the Maya civilization two thousand years ago and it has been claimed in several articles by Dennis E. Puleston to have been a staple food in the Maya diet, although other research has downplayed its significance. In the modern era it has been marginalized as a source of nutrition and has often been characterized as a famine food. The breadnut is extremely high in fiber, calcium, potassium, folic acid, iron, zinc, protein and B vitamins. It has a low glycemic index (<50) and is very high in antioxidants. The fresh seeds can be cooked and eaten or can be set out to dry in the sun to roast and eaten later. Stewed the nut tastes like mashed potato, roasted it tastes like chocolate or coffee and can be prepared in numerous other dishes. In Petén, Guatemala, the breadnut is being cultivated for exportation and local consumption as powder, for hot beverages, and bread. The tree can reach up to 45 meters (130 feet). The tree lends its name to the Maya archaeological sites of Iximché and Topoxte, both in Guatemala and also of Tamuin (reflecting the Maya origin of the Huastec peoples). It is one of the twenty dominant species of the Maya forest. Of the dominant species, it is the only one that is wind-pollinated. It is also found in traditional Maya forest gardens."
     },
     {
@@ -1631,12 +1631,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Chervil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Chervil (Anthriscus cerefolium), sometimes called garden chervil to distinguish it from similar plants also called chervil, or French parsley, is a delicate annual herb related to parsley. It is commonly used to season mild-flavoured dishes and is a constituent of the French herb mixture fines herbes."
     },
     {
         "name": "Chia",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Salvia hispanica, commonly known as chia, is a species of flowering plant in the mint family, Lamiaceae, native to central and southern Mexico and Guatemala. The 16th-century Codex Mendoza provides evidence that it was cultivated by the Aztec in pre-Columbian times; economic historians have suggested it was as important as maize as a food crop. It is still used in Paraguay, Bolivia, Argentina, Mexico and Guatemala, sometimes with the seeds ground or with whole seeds used for nutritious drinks and as a food source."
     },
     {
@@ -1701,7 +1701,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Cottonseed",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cottonseed is the seed of the cotton plant (gossypium). The mature seeds are brown ovoids weighing about a tenth of a gram. By weight, they are 60% cotyledon, 32% coat and 8% embryonic root and shoot. These are 20% protein, 20% oil and 3.5% starch. Fibres grow from the seed coat to form a boll of cotton lint. The boll is a protective fruit and when the plant is grown commercially, it is stripped from the seed by ginning and the lint is then processed into cotton fibre. For every hundred weight of fibre, about one hundred and sixty weight of seeds are produced. The seeds are about 15% of the value of the crop and are pressed to make oil and used as animal feed. About 5% of the seeds are used to sow the next crop."
     },
     {
@@ -1746,7 +1746,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Dock",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The docks and sorrels, genus Rumex L., are a genus of about 200 species of annual, biennial and perennial herbs in the buckwheat family Polygonaceae.\nMembers of this family are very common perennial herbs growing mainly in the northern hemisphere, but various species have been introduced almost everywhere.\nSome are nuisance weeds (and are sometimes called dockweed or dock weed), but some are grown for their edible leaves.\nRumex species are used as food plants by the larvae of a number of Lepidoptera species."
     },
     {
@@ -1821,7 +1821,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Fireweed",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Chamerion angustifolium, commonly known as Fireweed (mainly in North America), Great Willow-herb (some parts of Canada), or Rosebay Willowherb, is a perennial herbaceous plant in the willowherb family Onagraceae. It is native throughout the temperate Northern Hemisphere, including large parts of the boreal forests. This species has been placed in the genus Chamerion (sometimes, incorrectly, given as Chamaenerion) rather than Epilobium based on several morphological distinctions: spiral (rather than opposite or whorled) leaf arrangement; absence (rather than presence) of a hypanthium; subequal stamens (rather than stamens in two unequal whorls); zygomorphic (rather than actinomorphic) stamens and stigma. Under this taxonomic arrangement, Chamerion and Epilobium are monophyletic sister genera. Two subspecies are recognized as valid: Chamerion angustifolium ssp. angustifolium Chamerion angustifolium ssp. circumvagum"
     },
     {
@@ -1831,7 +1831,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Ginkgo nuts",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Ginkgo, also spelled gingko and known as the maidenhair tree, is a unique species of tree with no close living relatives. The ginkgo is a living fossil, recognisably similar to fossils dating back 270 million years. Native to China, the tree is widely cultivated and introduced early in human history, and has various uses as a food and in traditional medicine."
     },
     {
@@ -2001,7 +2001,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Lotus",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Nelumbo is a genus of aquatic plants with large, showy flowers resembling the water lily, but not closely related to it. It is commonly called lotus, though this name may be applied to other genera, and there is an unrelated genus Lotus. The generic name is derived from the Sinhalese word Nelum. There are only two known living species in the genus. The sacred lotus (N. nucifera) is native to Asia, and is the better known of the two. It is commonly cultivated, and also used in Chinese medicine and cooking. This species is the national flower of India and Vietnam. The American lotus (N. lutea) is native to North America and the Caribbean. Horticultural hybrids have been produced between these two geographically separated species. A third, extinct species, N. aureavallis, is known from Eocene fossils from North Dakota, United States."
     },
     {
@@ -2061,7 +2061,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "White mustard",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "White mustard (Sinapis alba) is an annual plant of the family Brassicaceae. It is sometimes also referred to as Brassica alba or B. hirta. Grown for its seeds, mustard, as fodder crop or as a green manure, it is now widespread worldwide, although it probably originated in the Mediterranean region.\nWhite mustard seeds are hard round seeds, usually around 1 to 1.5 millimetres in diameter, with a color ranging from beige or yellow to light brown. They can be used whole for pickling or toasted for use in dishes. When ground and mixed with other ingredients, a paste or more standard condiment can be produced."
     },
     {
@@ -2186,7 +2186,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Opium poppy",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Papaver somniferum, the Opium poppy, is the species of plant from which opium and poppy seeds are derived. Opium is the source of many narcotics, including morphine (and its derivative heroin), thebaine, codeine, papaverine, and noscapine. The Latin botanical name means the \"sleep-bringing poppy\", referring to the sedative properties of some of these opiates.\nThe poppy is the only species of Papaveraceae that is an agricultural crop grown on a large scale. Other species, Papaver rhoeas and Papaver argemone, are important agricultural weeds, and may be mistaken for the crop.\nThe plant itself is also valuable for ornamental purposes, and has been known as the \"common garden poppy\", referencing all the group of poppy plants.\nPoppy seeds of Papaver somniferum are an important food item and the source of poppyseed oil, a healthy edible oil that has many uses."
     },
     {
@@ -2201,7 +2201,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Quinoa",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Quinoa, a species of goosefoot, is a grain-like crop grown primarily for its edible seeds. It is a pseudocereal rather than a true cereal, or grain, as it is not a member of the true grass family. As a chenopod, quinoa is closely related to species such as beets, spinach and tumbleweeds."
     },
     {
@@ -2226,12 +2226,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Rose hip",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The rose hip, also known as rose haw or rose hep, is the fruit of the rose plant, that typically is red-to-orange, but ranges from dark purple to black in some species. Rose hips begin to form after successful pollination of flowers in spring or early summer, and ripen in late summer through autumn."
     },
     {
         "name": "Roselle",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The roselle (Hibiscus sabdariffa) is a species of Hibiscus native to the west Africa, used for the production of bast fibre and as an infusion. It is an annual or perennial herb or woody-based subshrub, growing to 2?2.5 m (7?8 ft) tall. The leaves are deeply three- to five-lobed, 8?15 cm (3?6 in) long, arranged alternately on the stems.\nThe flowers are 8?10 cm (3?4 in) in diameter, white to pale yellow with a dark red spot at the base of each petal, and have a stout fleshy calyx at the base, 1?2 cm (0.39?0.79 in) wide, enlarging to 3?3.5 cm (1.2?1.4 in), fleshy and bright red as the fruit matures. It takes about six months to mature."
     },
     {
@@ -2371,7 +2371,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Hedge mustard",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Hedge mustard (Sisymbrium officinale) is a plant in the family Brassicaceae. It is found on roadsides and wasteland, and as a weed of arable land. A native of Europe and North Africa, it is now well-established throughout the world.\nIt is distinct from the mustard plants which belong to the genus Brassica.\nThe Hedge-mustard is food for the caterpillars of some Lepidoptera, such as the small white (Pieris rapae).\nThis plant is widely cultivated across Europe for its edible leaves and seeds. It is widely used as a condiment in Northern Europe (particularly Denmark, Norway and Germany).\nThe leaves have a bitter cabbage-like flavour and they are used either in salads or cooked as a pot herb (in cultivar versions). The seeds have been used to make mustard pastes in Europe."
     },
     {
@@ -2441,7 +2441,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Teff",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Eragrostis tef, teff, Williams lovegrass, annual bunch grass, taf (Tigrinya: ጣፍ? ṭaff; Amharic: ጤፍ? ṭēff) and xaafii (Oromo)), is an annual grass, a species of lovegrass native to the northern Ethiopian Highlands and Eritrean Highlands of the Horn of Africa. The word \"tef\" is connected by folk etymology to the Ethio-Semitic root \"\\tff\\\", which means \"lost\" (because of the small size of the grain).\r\nEragrostis tef has an attractive nutrition profile, being high in dietary fiber and iron and providing protein and calcium. It is similar to millet and quinoa in cooking, but the seed is much smaller and cooks faster, thus using less fuel."
     },
     {
@@ -2486,7 +2486,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Wasabi",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Wasabi (ワサビ or わさび（山葵）, earlier 和佐比; Eutrema japonicum or Wasabia japonica) is a plant of the Brassicaceae family, which includes cabbages, horseradish, and mustard. It is also called Japanese horseradish, although horseradish is a different plant (which is generally used as a substitute for wasabi, due to the scarcity of the wasabi plant). Its stem is used as a condiment and has an extremely strong pungency more akin to hot mustard than the capsaicin in a chili pepper, producing vapours that stimulate the nasal passages more than the tongue. The plant grows naturally along stream beds in mountain river valleys in Japan. The two main cultivars in the marketplace are E. japonicum 'Daruma' and 'Mazuma', but there are many others. The origin of wasabi cuisine has been clarified from the oldest historical records; it takes its rise in Nara prefecture, and more recently has seen a surge in popularity from the early 1990s to mid 2000s. The plant grows naturally along stream beds in mountain river valleys in Japan. The two main cultivars in the marketplace are W. japonica 'Daruma' and 'Mazuma', but there are many others. The chemical in wasabi that provides for its initial pungency is the volatile allyl isothiocyanate, which is produced by hydrolysis of natural thioglucosides (conjugates of the sugar glucose, and sulfur-containing organic compounds); the hydrolysis reaction is catalyzed by myrosinase and occurs when the enzyme is released on cell rupture caused by maceration – e.g., grating – of the plant. The same compound is responsible for the pungency of horseradish and mustard. Allyl isothiocyanate can also be released when the wasabi plants have been damaged, because it is being used as a defense mechanism. Research has shown that such isothiocyanates inhibit microbe growth, perhaps with implications for preserving food against spoilage and suppressing oral bacterial growth. [Wikipedia]"
     },
     {
@@ -2526,7 +2526,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Tea leaf willow",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Salix pulchra is a species of flowering plant in the willow family, known by the common names diamondleaf willow, tealeaf willow, and thin red willow. It is native to northern North America, where it occurs in Alaska, Yukon, the Northwest Territories, and Nunavut. The species is also found in northern British Columbia, and occurs in Russia. This willow is an erect, deciduous shrub growing up to 4.6 m tall, but usually remaining smaller, especially in the Arctic and in alpine climates. Along with S. richardsonii and S. alaxensis, it is one of the tallest growing willows in the Canadian Arctic Archipelago. The species is dioecious, with male and female reproductive parts occurring on separate individuals. The inflorescence is a catkin. The catkins grow before the leaves appear in the spring. The leaves are green above and whitish underneath, and hairless. This plant is a dominant species on the tundra in many areas. It commonly grows with sedges. It may form thickets with other species of willow along waterways and on floodplains. It grows in spruce woodlands and muskegs. It grows above the timberline in interior Alaska, and at the timberline in northern Alaska. It often sprouts and grows after wildfire, and it persists in open habitat. This species was formerly known as S. planifolia subsp. pulchra, a subspecies of S. planifolia, but has since been treated as a distinct species. The two willow species have overlapping distribution and similar appearance, but can be distinguished by the longer stipules in S. pulchra. In areas where both willows occur, S. pulchra is often found at high elevations. S. pulchra and S. planifolia also form natural hybrids. S. pulchra is one of the least bitter-tasting willows in Alaska, and in the springtime, young leaves may be harvested for human consumption. The leaves and shoots were eaten by the Eskimo raw and dried, or stored in seal oil for future use. The leaves were also used to brew tea and make soup. At Nunivak Island, parts of this plant were chewed to treat ailments such as mouth sores and pain. This willow also provides a good source of vitamin C. Apart from medicinal purposes, Native Americans used parts of willows, including this species, in basket weaving, to make bows and arrows, and for building animal traps."
     },
     {
@@ -2721,7 +2721,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Rowal",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Pangium edule (Indonesian: keluak or keluwak; Malay: kepayang) is a tall tree native to the mangrove swamps of Southeast Asia (Indonesia, Malaysia and Papua New Guinea[2]). It produces a large poisonous fruit (the \"football fruit\") which can be made edible by fermentation.\nThe taxonomy of the tree is uncertain and it may also be classed in the Flacourtiaceae or the Violales."
     },
     {
@@ -2756,7 +2756,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Epazote",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Epazote, wormseed, Jesuit's tea, Mexican tea, Paico or Herba Sancti Mariæ (Dysphania ambrosioides, formerly Chenopodium ambrosioides) is an herb native to Central America, South America, and southern Mexico.\nEpazote is used as a leaf vegetable, an herb and an herbal tea for its pungent flavor. Raw, it has a resinous, medicinal pungency, similar to anise, fennel, or even tarragon, but stronger. Epazote's fragrance is strong but difficult to describe. A common analogy is to turpentine or creosote. It has also been compared to citrus, savory, or mint."
     },
     {
@@ -2786,7 +2786,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sourdock",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Rumex arcticus, commonly known as Arctic Dock or Sourdock, is a perennial flowering plant that is native to Alaska. Its leaves are an important part of the diet of native Alaskans such as the Yupik people, who include it in various dishes such as akutaq."
     },
     {
@@ -2856,7 +2856,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Cinnamon",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cinnamon is a spice obtained from the inner bark of several trees from the genus Cinnamomum that is used in both sweet and savoury foods. While Cinnamomum verum is sometimes considered to be \"true cinnamon\", most cinnamon in international commerce is derived from related species, which are also referred to as \"cassia\" to distinguish them from \"true cinnamon\".\nCinnamon is the name for perhaps a dozen species of trees and the commercial spice products that some of them produce. All are members of the genus Cinnamomum in the family Lauraceae. Only a few of them are grown commercially for spice."
     },
     {
@@ -2951,7 +2951,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Oil palm",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The oil palms (Elaeis) comprise two species of the Arecaceae, or palm family. They are used in commercial agriculture in the production of palm oil. [Wikipedia]"
     },
     {
@@ -2961,7 +2961,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sago palm",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "True sago palm is a suckering (multiple-stemmed) palm, each stem only flowering once (hapaxanthic) with a large upright terminal inflorescence. A stem grows 7?25 m tall before it ends in an inflorescence. Before flowering, a stem bears about 20 pinnate leaves up to 10 m long. Each leaf has about 150-180 leaflets up to 175 cm long. The inflorescence, 3-7.5 m tall and wide, consists of the continuation of the stem and 15-30 upwardly-curving (first-order) branches spirally arranged on it. Each first-order branch has 15-25 rigid, distichously arranged second-order branches; each second-order branch has 10-12 rigid, distichously arranged third-order branches. Flower pairs are spirally arranged on the third-order branches, each pair consisting of one male and one hermaphrodite flower. The fruit is drupe-like, about 5 cm in diameter, covered in scales which turn from bright green to straw-coloured upon ripening."
     },
     {
@@ -3355,11 +3355,6 @@ export const FOOD_ARRAY = [
         "description": null
     },
     {
-        "name": "Unclassified food or beverage",
-        "group": "Unclassified",
-        "description": null
-    },
-    {
         "name": "Syrup",
         "group": "Baking goods",
         "description": "In cooking, a syrup or sirup is a thick, viscous liquid consisting primarily of a solution of sugar in water, containing a large amount of dissolved sugars but showing little tendency to deposit crystals. The viscosity arises from the multiple hydrogen bonds between the dissolved sugar, which has many hydroxyl (OH) groups, and the water. Syrups can be made by dissolving sugar in water or by reducing naturally sweet juices such as cane juice, sorghum juice, or maple sap. Corn syrup is made from corn starch using an enzymatic process that converts it to sugars. Technically and scientifically, the term syrup is also employed to denote viscous, generally residual, liquids, containing substances other than sugars in solution."
@@ -3386,7 +3381,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Curry powder",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Curry powder is a spice mix of widely varying composition based on South Asian cuisine. Curry powder and the contemporary English use of the word curry are Western inventions and do not reflect any specific Indian food, though a similar mixture of spices used in north India is called garam masala. Curry powder is actually closer to the Tamil sambar powder, and the word curry is widely believed to be a corruption of the Tamil word kari, variously meaning something like sauce, cooked vegetables or meat. In the western world, curry powder mixtures tend to have a fairly standardized taste, though a great variety of spice mixtures are used in Indian cuisine. Curry powder was largely popularized during the nineteenth and twentieth centuries through the mass export of the condiment to the western table, throughout Europe and North and South America and through its use in British Army nations. Curry powder did not become standardized, as many of the original blends of curry powder were still available throughout the world. The late 1960s and early 1970s saw a growth of Indian-based food consumption in the west and internationally. This led to an increase of Indian restaurants throughout the world. The tradition of keeping special blends of curry powder simply became uneconomical, and curry powder became increasingly standardized outside India. Indian cooks often have readier access to a variety of fresh spices than their foreign counterparts. Some curry cooks will have their own specific mixtures for different recipes. These are often passed down from parent to child."
     },
     {
@@ -3861,27 +3856,27 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Babassu palm",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Babassu palm (Babaçu, Cusi) is a palm native to the Amazon Rainforest region. The Babassu palm is the predominant species in the Maranhão Babaçu forests of Maranhão and Piauí states. This plant has commercial value because its seeds produce an edible oil called babassu oil, which is also used in cleaners and skin care products. The fruit is used to produce products such as medicines, beauty aids, and beverages. Traditional communities of the Maranhão region also produce a flour from the fruit and this is commercialized as a nutritional supplement. The leaves are also used to provide thatch for houses and can be woven into mats for constructing house walls. The stems are used for timbers. [Wikipedia]"
     },
     {
         "name": "Cupuaçu",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cupuaçu (also spelled Cupuassu, Cupuazú, and Copoasu), is a tropical rainforest tree related to cacao. Common throughout the Amazon basin, it is widely cultivated in the jungles of Colombia, Bolivia and Peru and in the north of Brazil, with the largest production in Pará, followed by Amazonas, Rondônia and Acre. The white pulp of the cupuaçu is uniquely fragrant (described as a mix of chocolate and pineapple), and it contains theacrine (1,3,7,9-tetramethyluric acid) instead of the xanthines (caffeine, theobromine, and theophylline) found in cacao. It is frequently used in desserts, juices and sweets. The juice tastes primarily like a pear, with a hint of banana. [Wikipedia]"
     },
     {
         "name": "Shea tree",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Shea tree is a tree indigenous to Africa, occurring in Mali, Cameroon, Congo, Côte d'Ivoire, Ghana, Guinea, Togo, Nigeria, Senegal, Sudan, Burkina Faso and Uganda. The shea fruit consists of a thin, tart, nutritious pulp that surrounds a relatively large, oil-rich seed from which shea butter is extracted. Throughout Africa, shea butter is used extensively for food and medicinal purposes, and is a major source of dietary fat. The fruit is edible and delicious. It tastes roughly like a fig. [Wikipedia]"
     },
     {
         "name": "Oil-seed Camellia",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Oil-seed camellia (or tea oil camellia) is an important source of edible oil (known as tea oil or camellia oil) obtained from its seeds. Tea oil is a sweetish seasoning and cooking oil that should not be confused with tea tree oil, an essential oil that is used for medical and cosmetical purposes and originates from the leaves of a different plant. [Wikipedia]"
     },
     {
         "name": "Ucuhuba",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "The ucuhuba tree grows in South America. Ucuhuba seed oil is the oil extracted from its seed. [Wikipedia]"
     },
     {
@@ -4166,7 +4161,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Yellow pond-lily",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Yellow pond-lily is an aquatic plant of the family Nymphaeaceae, native to temperate regions of Europe, northwest Africa, and western Asia. This aquatic plant grows in shallow water and wetlands, with its roots in the sediment and its leaves floating on the water surface; it can grow in water up to 5 metres deep. It is usually found in shallower water than the white water lily, and often in beaver ponds. [Wikipedia]"
     },
     {
@@ -4246,7 +4241,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Soft-necked garlic",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Soft-necked garlic is one of the most commonly found subspecies of garlic. Soft-necked garlic includes artichoke garlic, silverskin garlic, and creole garlic. [Wikipedia]"
     },
     {
@@ -4326,7 +4321,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Herbs and Spices",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": null
     },
     {
@@ -4506,7 +4501,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Asparagus fern",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Asparagus setaceus, commonly called common asparagus fern, lace fern, climbing asparagus, or ferny asparagus, is native to South Africa. It is considered a weed in some locations. Asparagus setaceus is a climbing perennial herb, the small flowers are greenish-white in bell-shape, the berries are black when it is mature. [Wikipedia]"
     },
     {
@@ -4541,7 +4536,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Olive oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Olive oil is a liquid obtained from olives (the fruit of Olea europaea; family Oleaceae), a traditional tree crop of the Mediterranean Basin. The oil is produced by pressing whole olives. It is commonly used in cooking, whether for frying or as a salad dressing.It consists mainly of oleic acid (up to 83%), with smaller amounts of other fatty acids including linoleic acid (up to 21%) and palmitic acid (up to 20%)."
     },
     {
@@ -4556,27 +4551,27 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "linseed oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Linseed oil, also known as flaxseed oil or flax oil, is a colourless to yellowish oil obtained from the dried, ripened seeds of the flax plant (Linum usitatissimum). The oil is obtained by pressing, sometimes followed by solvent extraction. Linseed oil is a drying oil, meaning it can polymerize into a solid form.Linseed oil is an edible oil in demand as a nutritional supplement, as a source of α-Linolenic acid, (an omega-3 fatty acid)."
     },
     {
         "name": "Rapeseed oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Rapeseed oil is produced from the bright yellow rape plant. The oil can then used drizzled as salad dressing, or heated to fry or bake.It's low in saturated fat and contains omegas 3, 6 and 9"
     },
     {
         "name": "Soybean oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Soybean oil is a vegetable oil extracted from the seeds of the soybean (Glycine max). It is one of the most widely consumed cooking oils. As a drying oil, processed soybean oil is also used as a base for printing inks (soy ink) and oil paints."
     },
     {
         "name": "Guarana",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Guarana is a climbing plant in the family Sapindaceae, native to the Amazon basin and especially common in Brazil.Guarana has large leaves and clusters of flowers and is best known for the seeds from its fruit, which are about the size of a coffee bean.It contains about twice the concentration of caffeine found in coffee seeds. The additive has gained notoriety for being used in energy drinks.The colour of the fruit ranges from brown to red and it contains black seeds that are partly covered by white arils."
     },
     {
         "name": "Mate",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Mate is a traditional South American caffeine-rich infused drink.It is prepared by steeping dried leaves of yerba mate (Ilex paraguariensis, known in Portuguese as erva-mate) in hot water and is served with a metal straw from a shared hollow calabash gourd.The mate leaves are dried, chopped, and ground into a powdery mixture called yerba, \"erva\" in Portuguese, which means \"herb\"."
     },
     {
@@ -4601,12 +4596,12 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "White mulberry",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "White mulberry trees that produce pure white fruit are rare. Typically, the fruits are white when immature, but gradually ripen to shades of pink or purple. They are a small variety, just a few centimeters long, and far sweeter than the black and red mulberries. They have a low acidity and a mild honey-like flavor. White mulberries are best when slightly overripe"
     },
     {
         "name": "Canola oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Canola oil is a vegetable oil derived from a variety of rapeseed that is low in erucic acid, as opposed to colza oil.There are both edible and industrial forms produced from the seed of any of several cultivars of the plant family Brassicaceae."
     },
     {
@@ -4646,7 +4641,7 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Red clover",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Red clover is a herbaceous, short-lived perennial plant, variable in size, growing to 20–80 cm (8–31 in) tall. The red clover is native to Europe, Western Asia, and northwest Africa.Red clover’s flowers and leaves are edible, and can be added as garnishes to any dish.The flowers often are used to make jelly and tisanes, and are used in essiac recipes."
     },
     {
@@ -4696,42 +4691,42 @@ export const FOOD_ARRAY = [
     },
     {
         "name": "Sunflower oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Sunflower oil is the non-volatile oil pressed from the seeds of sunflower (Helianthus annuus). Sunflower oil is commonly used in food as a frying oil, and in cosmetic formulations as an emollient.Sunflower oil is primarily composed of linoleic acid, a polyunsaturated fat, and oleic acid, a monounsaturated fat. "
     },
     {
         "name": "Coconut oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Coconut oil, or copra oil, is an edible oil extracted from the kernel or meat of mature coconuts harvested from the coconut palm (Cocos nucifera). It has various applications. Because of its high saturated fat content, it is slow to oxidize and, thus, resistant to rancidification, lasting up to six months at 24 °C (75 °F) without spoiling."
     },
     {
         "name": "Peanut oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Peanut oil, also known as groundnut oil or arachis oil, is a vegetable oil derived from peanuts. The oil has a strong peanut flavor and aroma.t is often used in American, Chinese, South Asian and Southeast Asian cuisine, both for general cooking, and in the case of roasted oil, for added flavor."
     },
     {
         "name": "Cottonseed oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Cottonseed oil is cooking oil from the seeds of cotton plants of various species, mainly Gossypium hirsutum and Gossypium herbaceum, that are grown for cotton fiber, animal feed, and oil.Cottonseed oil is used for salad oil, mayonnaise, salad dressing, and similar products because of its flavor stability."
     },
     {
         "name": "Corn oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Corn oil (maize oil) is oil extracted from the germ of corn (maize). Its main use is in cooking, where its high smoke point makes refined corn oil a valuable frying oil."
     },
     {
         "name": "Avocado oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Avocado oil is an edible oil pressed from the fruit of the Persea americana (avocado). As a food oil, it is used as an ingredient in other dishes, and as a cooking oil. It is also used for lubrication and in cosmetics, where it is valued for its supposed regenerative and moisturizing properties."
     },
     {
         "name": "Grapeseed oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Grape seed oil (also called grapeseed oil or grape oil) is pressed from the seeds of grapes, and is thus an abundant by-product of winemaking.It is widely used in baked goods, pancakes, and waffles. It is sprayed on raisins to help them retain their flavor."
     },
     {
         "name": "Sesame oil",
-        "group": "Herbs and Spices",
+        "group": "Herbs and spices",
         "description": "Sesame oil is an edible vegetable oil derived from sesame seeds. Besides being used as a cooking oil, it is used as a flavor enhancer in many cuisines, having a distinctive nutty aroma and taste.The oil is one of the earliest-known crop-based oils."
     },
     {
@@ -4943,21 +4938,31 @@ export const FOOD_ARRAY = [
         "name": "Herbal tea",
         "group": "Teas",
         "description": "Herbal teas are the beverages made from the infusion or decoction of herbs, spices, or other plant material in hot water. While most herbal teas are safe for regular consumption, some herbs have toxic or allergenic effects. The most herbal teas include Chamomile Tea, Peppermint Tea, Ginger Tea, etc."
-    },
-    {
-        "name": "Fish oil",
-        "group": null,
-        "description": "Fish oil is oil derived from the tissues of oily fish. Fish oils contain the omega-3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), precursors of certain eicosanoids that are known to reduce inflammation in the body and improve hypertriglyceridemia. Fish oil has been shown the benefit for cardiovascular disease. The most promising evidence supports supplementation for prevention of cardiac death."
-    },
-    {
-        "name": "Taco shell",
-        "group": null,
-        "description": "The hard-shell or crispy taco is a tradition that developed in the United States. The most common type of taco in the US is the hard-shell, U-shaped version, first described in a cookbook in 1949."
-    },
-    {
-        "name": "Tostada shell",
-        "group": null,
-        "description": null
     }
+]
 
+export const FOOD_ARRAY_GROUPS = 
+[
+    "Herbs and spices",
+    "Vegetables",
+    "Fruits",
+    "Nuts",
+    "Cereals and cereal products",
+    "Pulses",
+    "Teas",
+    "Gourds",
+    "Coffee and coffee products",
+    "Soy",
+    "Cocoa and cocoa products",
+    "Beverages",
+    "Aquatic foods",
+    "Animal foods",
+    "Milk and milk products",
+    "Eggs",
+    "Confectioneries",
+    "Baking goods",
+    "Dishes",
+    "Snack foods",
+    "Baby foods",
+    "Fats and oils"
 ]
