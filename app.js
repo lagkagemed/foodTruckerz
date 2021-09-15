@@ -30,9 +30,12 @@ let SOCKET_LIST = {}
 let PLAYER_LIST = {}
 let FARMER_ARRAY = []
 
-let totalTime = 10;
+let totalTime = 1;
 let startDate = Date.now();
 let endDate = startDate + (totalTime * 60 * 1000)
+let cookFact = 0.5;
+let recipes = [];
+let priceFact = 1;
 
 let numFarmers = 4 + (Math.random() * 6);
 
@@ -75,6 +78,8 @@ function sendGameStatus() {
     pack.connected = string;
     pack.farmers = FARMER_ARRAY;
     pack.endDate = endDate;
+    pack.recipes = recipes;
+    pack.priceFact = priceFact;
 
 
     for (let i in SOCKET_LIST) {
@@ -95,6 +100,7 @@ io.sockets.on('connection', function(socket){
     player.name = "Unnamed";
     player.cash = 1000;
     player.inventory = [];
+    player.cookedFood = [];
     player.kitchen = 2;
 
     sendGameStatus();
@@ -103,7 +109,7 @@ io.sockets.on('connection', function(socket){
         let pack = {};
     
         pack.groups = FOOD_ARRAY_GROUPS;
-        pack.cookFact = 0.5;
+        pack.cookFact = cookFact;
     
         socket.emit('initial', pack);
     }
@@ -125,7 +131,7 @@ io.sockets.on('connection', function(socket){
             console.log(data.buyQuant);
         } else if (buyQuant > 0) {
             let buyItem = FARMER_ARRAY[data.farmer].items[data.item];
-            let buyPrice = buyQuant * buyItem.price;
+            let buyPrice = (buyQuant * buyItem.price * priceFact).toFixed(2);
             if (player.cash >= buyPrice && buyItem.quantity >= buyQuant) {
                 player.cash -= buyPrice;
                 player.cash = player.cash.toFixed(2);
@@ -151,6 +157,94 @@ io.sockets.on('connection', function(socket){
         }
     });
 
+    socket.on('cookRequest',function(data){
+        let cookIt = true;
+        if (data.ingredients.length > player.kitchen) cookIt = false;
+
+        let avgCost = 0;
+        let dishTaste = 0;
+        let dishNutrition = 0;
+        let dishRecipe = [];
+
+        for (let i = 0; i < data.ingredients.length; i++) {
+            let doesExist = false
+            for (let a = 0; a < player.inventory.length; a++) {
+                if (data.ingredients[i] == player.inventory[a].name) {
+                    if (player.inventory[a].quantity > 0) {
+                        let selFood = player.inventory[a];
+                        doesExist = true;
+                        avgCost += selFood.price;
+                        dishTaste += selFood.taste;
+                        dishNutrition += selFood.nutrition;
+                        dishRecipe.push(selFood.group);
+                    }
+                }
+            }
+            if (!doesExist) cookIt = false;
+        }
+
+        let recipeName = data.dishName;
+
+        if (dishRecipe.length > 0) {
+            avgCost = avgCost / dishRecipe.length;
+            avgCost = parseFloat(avgCost.toFixed(2));
+            dishTaste = dishTaste / dishRecipe.length + ((dishRecipe.length - 1) * cookFact)
+            dishTaste = parseFloat(dishTaste.toFixed(2));
+            dishNutrition = dishNutrition / dishRecipe.length + ((dishRecipe.length - 1) * cookFact)
+            dishNutrition = parseFloat(dishNutrition.toFixed(2));
+        }
+
+        dishRecipe.sort();
+        
+        let recipeDoesExist = false
+
+        for (let i = 0; i < recipes.length; i++) {
+            if (JSON.stringify(recipes[i].ingredients) == JSON.stringify(dishRecipe)) {
+                recipeDoesExist = true;
+                recipeName = recipes[i].dishName;
+                console.log('same')
+            }
+        }
+
+        if (!recipeDoesExist) {
+            let newRecipe = {}
+            newRecipe.dishName = recipeName;
+            newRecipe.ingredients = dishRecipe;
+            recipes.push(newRecipe);
+            console.log('not same')
+        }
+
+        let recipeString = '';
+
+        for (let i = 0; i < dishRecipe.length; i++) {
+            recipeString += dishRecipe[i] + " | ";
+        }
+
+        if (cookIt) {
+            let doesDishExist = false;
+            for (let i= 0; i < player.cookedFood.length; i++) {
+                if (player.cookedFood[i].description == recipeString) {
+                    doesDishExist = true;
+                    player.cookedFood[i].quantity += data.ingredients.length;
+                }
+            }
+            if (!doesDishExist) {
+                let newFood = Food(recipeName, 'Cooked Food', recipeString, data.ingredients.length, avgCost, dishTaste, dishNutrition);
+                player.cookedFood.push(newFood);
+            }
+            for (let i = 0; i < data.ingredients.length; i++) {
+                for (let a = 0; a < player.inventory.length; a++) {
+                    if (data.ingredients[i] == player.inventory[a].name) {
+                        player.inventory[a].quantity--;
+                    }
+                }
+            }
+            socket.emit('playerStatus', player);
+            sendGameStatus();
+
+        }
+    })
+
     socket.on('disconnect',function(){
         delete SOCKET_LIST[socket.id];
         delete PLAYER_LIST[player.id];
@@ -159,3 +253,12 @@ io.sockets.on('connection', function(socket){
     });
 });
 
+setTimeout(function(){
+    priceFact = 0.7;
+    sendGameStatus();
+}, (totalTime * 60 * 1000 / 2))
+
+setTimeout(function(){
+    priceFact = 0.5;
+    sendGameStatus();
+}, (totalTime * 60 * 1000 / 4 * 3))

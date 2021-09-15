@@ -3,11 +3,14 @@ let socket = io();
 let playerName = '';
 let playerCash = 0;
 let playerInventory = [];
+let playerCookedFood = [];
 let playerKitchen = 0;
+let recipes = [];
 
 let FOOD_ARRAY_GROUPS = [];
 let endDate = 0;
 let cookFact = 0;
+let priceFact = 1;
 
 let selectedFarmer = -1;
 let selectedFood = -1;
@@ -28,7 +31,7 @@ function updateItem(item) {
         p0.innerHTML = "Group: " + item.group;
         foodDiv.appendChild(p0);
         let p1 = document.createElement("p");
-        p1.innerHTML = "Price: " + item.price;
+        p1.innerHTML = "Price: " + (item.price * priceFact).toFixed(2);
         foodDiv.appendChild(p1);
         let p2 = document.createElement("p");
         p2.innerHTML = "Taste: " + item.taste;
@@ -132,6 +135,16 @@ function refreshDishStats() {
 
     dishRecipe.sort();
 
+    let textInput = document.getElementById('recipeName');
+    textInput.disabled = false;
+
+    for (let i = 0; i < recipes.length; i++) {
+        if (JSON.stringify(recipes[i].ingredients) == JSON.stringify(dishRecipe)) {
+            textInput.value = recipes[i].dishName;
+            textInput.disabled = true;
+        }
+    }
+
     let recipeString = '';
 
     for (let i = 0; i < dishRecipe.length; i++) {
@@ -185,11 +198,42 @@ document.getElementById('loginButton').addEventListener('click', function () {
     document.getElementById("gamePage").style.display = "block";
 })
 
+document.getElementById('cookButton').addEventListener('click', function () {
+    let sendIt = false;
+    let sendIt2 = false;
+
+    let pack = {};
+    pack.ingredients = []
+    pack.dishName = '';
+
+    for (let i = 0; i < playerKitchen; i++) {
+        let select = document.getElementById('ingredientSelect' + i);
+        if (select.selectedIndex != 0) {
+            sendIt = true;
+            pack.ingredients.push(select.value);
+        }
+    }
+
+    if (document.getElementById('recipeName').value != '') {
+        sendIt2 = true;
+        pack.dishName = document.getElementById('recipeName').value;
+    }
+
+    if (sendIt && sendIt2) {
+        socket.emit('cookRequest', pack);
+    }
+
+})
+
 socket.on('gameStatus',function(data){
     document.getElementById('connectedInfo').innerHTML = data.connected;
     FARMER_ARRAY = data.farmers;
     endDate = data.endDate;
+    priceFact = data.priceFact;
+    recipes = data.recipes;
     updateFarmers();
+    if (priceFact == 1) document.getElementById('markeTimeInfo').innerHTML = ''
+    if (priceFact < 1) document.getElementById('markeTimeInfo').innerHTML = 'Hurry up! Farmers just dropped the prices by ' + ((1 - priceFact) * 100).toFixed(0) + '%' 
 });
 
 socket.on('playerStatus',function(player){
@@ -198,13 +242,24 @@ socket.on('playerStatus',function(player){
 
     playerInventory = player.inventory;
     if (playerInventory.length == 0) {
-        document.getElementById('inventoryInfo').innerHTML = "Your Inventory is empty!";
+        document.getElementById('inventoryInfo').innerHTML = "Your fresh food inventory is empty!";
     } else {
-        let string = "In your inventory you have: ";
+        let string = "In your fresh food inventory you have: ";
         for (let i = 0; i < playerInventory.length; i++) {
             string += playerInventory[i].name + ": " + playerInventory[i].quantity + " | ";
         }
         document.getElementById('inventoryInfo').innerHTML = string;
+    }
+
+    playerCookedFood = player.cookedFood;
+    if (playerCookedFood.length == 0) {
+        document.getElementById('cookedFoodInfo').innerHTML = "Your cooked food inventory is empty!";
+    } else {
+        let string = "In your cooked food inventory you have: ";
+        for (let i = 0; i < playerCookedFood.length; i++) {
+            string += playerCookedFood[i].name + ": " + playerCookedFood[i].quantity + " | ";
+        }
+        document.getElementById('cookedFoodInfo').innerHTML = string;
     }
 
     playerKitchen = player.kitchen;
